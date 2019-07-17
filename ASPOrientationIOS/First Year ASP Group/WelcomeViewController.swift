@@ -12,7 +12,7 @@ class WelcomeViewController: ASPViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.setupTitle(title: "ASP Welcome Program")
         // Do any additional setup after loading the view.
     }
     

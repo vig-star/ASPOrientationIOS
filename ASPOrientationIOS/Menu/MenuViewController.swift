@@ -288,15 +288,7 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
     
         func transitionToNew(_ menuType: MenuType){
             var title = ""
-            if((String(describing: menuType)) == ("home")){
-               title = "ASP Orientation"
-            }else if((String(describing: menuType)) == ("map")){
-                title = "Campus Map"
-            }else if((String(describing: menuType)) == ("welcome")){
-                title = "ASP Welcome Program"
-            }else if((String(describing: menuType)) == ("parent")){
-                title = "Parent Faculty Association"
-            }else if((String(describing: menuType)) == ("gradebonding")){
+           if((String(describing: menuType)) == ("gradebonding")){
                 title = "Grade Bonding Programs"
             }else if((String(describing: menuType)) == ("onlineresources")){
                 title = "ASP Online Resources"

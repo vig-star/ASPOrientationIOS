@@ -17,7 +17,8 @@ class ResourcesViewController: ASPViewController {
     @IBOutlet weak var libtextview: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.setupTitle(title: "ASP Online Resources")
+        
         introtextView.isSelectable = true
         introtextView.isEditable = false
         introtextView.dataDetectorTypes = .link

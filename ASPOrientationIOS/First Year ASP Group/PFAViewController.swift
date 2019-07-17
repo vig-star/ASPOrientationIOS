@@ -12,7 +12,7 @@ class PFAViewController: ASPViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.setupTitle(title: "Parent Faculty Association")
         // Do any additional setup after loading the view.
     }
     

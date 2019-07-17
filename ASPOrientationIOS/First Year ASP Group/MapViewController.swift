@@ -12,7 +12,7 @@ class MapViewController: ASPViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.setupTitle(title: "Campus Map")
         // Do any additional setup after loading the view.
     }
     

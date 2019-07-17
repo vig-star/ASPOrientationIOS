@@ -19,6 +19,10 @@ class ASPViewController: UIViewController {
         setupSideMenu()
     }
     
+    public func setupTitle(title: String) {
+        self.title = title
+    }
+    
     private func setupSideMenu() {
         // Define the menus
         let navigationBar = navigationController!.navigationBar
