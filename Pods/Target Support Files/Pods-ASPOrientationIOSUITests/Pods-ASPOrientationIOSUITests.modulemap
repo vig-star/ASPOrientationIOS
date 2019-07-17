@@ -1,0 +1,6 @@
+framework module Pods_ASPOrientationIOSUITests {
+  umbrella header "Pods-ASPOrientationIOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

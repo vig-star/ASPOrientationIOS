@@ -1,0 +1,16 @@
+PODS:
+  - SideMenu (6.0.0)
+
+DEPENDENCIES:
+  - SideMenu
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SideMenu
+
+SPEC CHECKSUMS:
+  SideMenu: 1b826b95cc7db1a3c7d164f8a6e6e92506ffb0f5
+
+PODFILE CHECKSUM: a30f16c8af3c05d53034f96633bcf31ff40985e8
+
+COCOAPODS: 1.5.2
