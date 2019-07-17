@@ -163,26 +163,18 @@
 		2F4F757C22D0B51700EFFE37 /* ASPOrientationIOS */ = {
 			isa = PBXGroup;
 			children = (
+				84B9E86022DF4D86009406DD /* First Year ASP Group */,
+				84B9E86122DF4DEA009406DD /* Important Information */,
 				84B9E85D22DF34A4009406DD /* Common */,
 				84B9E85C22DF3490009406DD /* Menu */,
 				2F4F757F22D0B51700EFFE37 /* HomeViewController.swift */,
-				2F4F75B722D220ED00EFFE37 /* GradeBondingViewController.swift */,
-				2F4F75B922D2212900EFFE37 /* ResourcesViewController.swift */,
-				2F4F75BB22D2217100EFFE37 /* AthleticsViewController.swift */,
-				2F4F75BD22D221C000EFFE37 /* CoCurricularViewController.swift */,
-				2F4F75BF22D2220A00EFFE37 /* CafeteriaViewController.swift */,
-				2F4F75C122D2223700EFFE37 /* BusViewController.swift */,
-				2F4F75C322D2226000EFFE37 /* CalendarViewController.swift */,
 				2F4F75C522D2229600EFFE37 /* ShareViewController.swift */,
-				2F4F75B322D2205A00EFFE37 /* WelcomeViewController.swift */,
 				2F4F758122D0B51700EFFE37 /* Main.storyboard */,
 				2F4F75C922D2B99300EFFE37 /* PFASAViewController.swift */,
 				2F4F758422D0B51900EFFE37 /* Assets.xcassets */,
 				2F4F758622D0B51900EFFE37 /* LaunchScreen.storyboard */,
 				2F4F758922D0B51900EFFE37 /* Info.plist */,
-				2F4F75B122D20C4E00EFFE37 /* MapViewController.swift */,
 				2F4F75AD22D0F49500EFFE37 /* ASPOrientationIOS.swift */,
-				2F4F75C722D2558500EFFE37 /* PFAViewController.swift */,
 			);
 			path = ASPOrientationIOS;
 			sourceTree = "<group>";
@@ -223,6 +215,30 @@
 				84B9E85E22DF3AAC009406DD /* ASPViewController.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		84B9E86022DF4D86009406DD /* First Year ASP Group */ = {
+			isa = PBXGroup;
+			children = (
+				2F4F75B122D20C4E00EFFE37 /* MapViewController.swift */,
+				2F4F75B322D2205A00EFFE37 /* WelcomeViewController.swift */,
+				2F4F75C722D2558500EFFE37 /* PFAViewController.swift */,
+				2F4F75B722D220ED00EFFE37 /* GradeBondingViewController.swift */,
+			);
+			path = "First Year ASP Group";
+			sourceTree = "<group>";
+		};
+		84B9E86122DF4DEA009406DD /* Important Information */ = {
+			isa = PBXGroup;
+			children = (
+				2F4F75B922D2212900EFFE37 /* ResourcesViewController.swift */,
+				2F4F75BB22D2217100EFFE37 /* AthleticsViewController.swift */,
+				2F4F75BD22D221C000EFFE37 /* CoCurricularViewController.swift */,
+				2F4F75BF22D2220A00EFFE37 /* CafeteriaViewController.swift */,
+				2F4F75C122D2223700EFFE37 /* BusViewController.swift */,
+				2F4F75C322D2226000EFFE37 /* CalendarViewController.swift */,
+			);
+			path = "Important Information";
 			sourceTree = "<group>";
 		};
 		EA6ECE26A516C7FB19BAB0DC /* Frameworks */ = {
