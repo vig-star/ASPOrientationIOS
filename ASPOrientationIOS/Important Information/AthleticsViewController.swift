@@ -10,6 +10,12 @@ import UIKit
 
 class AthleticsViewController: ASPViewController {
 
+    lazy var webViewController: ASPWebViewController = {
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        var viewController = storyboard.instantiateViewController(withIdentifier: "ASPWebViewController") as! ASPWebViewController
+        return viewController
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,11 +33,17 @@ class AthleticsViewController: ASPViewController {
     }
     */
     @IBAction func onButtonPressedAthletics(_ sender: Any) {
-        UIApplication.shared.open(URL(string: "https://www.asparis.org/athletics/lower-school-sports-and-activities")! as URL, options: [:], completionHandler: nil)
+//
+        webViewController.urlString = "https://www.asparis.org/athletics/lower-school-sports-and-activities"
+    self.navigationController?.pushViewController(webViewController, animated: true)
+        
+        
     }
     
     @IBAction func onButtonPressedMiddle(_ sender: Any) {
-        UIApplication.shared.open(URL(string: "https://www.asparis.org/athletics/ms-sports-and-activities")! as URL, options: [:], completionHandler: nil)
+        webViewController.urlString = "https://www.asparis.org/athletics/ms-sports-and-activities"
+        self.navigationController?.pushViewController(webViewController, animated: true)
+    
     }
     @IBAction func onButtonPressedUpper(_ sender: Any) {
         UIApplication.shared.open(URL(string: "https://www.asparis.org/athletics/upper-school-sports-and-activities")! as URL, options: [:], completionHandler: nil)

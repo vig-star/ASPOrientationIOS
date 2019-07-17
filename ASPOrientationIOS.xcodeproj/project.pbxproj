@@ -32,6 +32,7 @@
 		2F614A0322DD0BF600E1BD3F /* MenuItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F614A0222DD0BF500E1BD3F /* MenuItemTableViewCell.swift */; };
 		2F85B34422DE1C48004EB8E0 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F85B34322DE1C48004EB8E0 /* MenuItem.swift */; };
 		2F85B34622DE1CC4004EB8E0 /* MenuGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F85B34522DE1CC4004EB8E0 /* MenuGroup.swift */; };
+		2FD02A3822DFA08F0037E428 /* ASPWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD02A3722DFA08F0037E428 /* ASPWebViewController.swift */; };
 		5CF154D8BC3FD701B993082E /* Pods_ASPOrientationIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70963A5E1F7615EDD45093C5 /* Pods_ASPOrientationIOSUITests.framework */; };
 		84B9E85F22DF3AAC009406DD /* ASPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B9E85E22DF3AAC009406DD /* ASPViewController.swift */; };
 		FFE01CB53A9DC41763566FCB /* Pods_ASPOrientationIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1138E599AC2B84A727B1B2 /* Pods_ASPOrientationIOSTests.framework */; };
@@ -86,6 +87,7 @@
 		2F614A0222DD0BF500E1BD3F /* MenuItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemTableViewCell.swift; sourceTree = "<group>"; };
 		2F85B34322DE1C48004EB8E0 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		2F85B34522DE1CC4004EB8E0 /* MenuGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuGroup.swift; sourceTree = "<group>"; };
+		2FD02A3722DFA08F0037E428 /* ASPWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASPWebViewController.swift; sourceTree = "<group>"; };
 		40F44BF16170A2CA7276FD3F /* Pods-ASPOrientationIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASPOrientationIOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASPOrientationIOSUITests/Pods-ASPOrientationIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		70963A5E1F7615EDD45093C5 /* Pods_ASPOrientationIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASPOrientationIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B9E85E22DF3AAC009406DD /* ASPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASPViewController.swift; sourceTree = "<group>"; };
@@ -213,6 +215,7 @@
 			children = (
 				2F4F757D22D0B51700EFFE37 /* AppDelegate.swift */,
 				84B9E85E22DF3AAC009406DD /* ASPViewController.swift */,
+				2FD02A3722DFA08F0037E428 /* ASPWebViewController.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -487,6 +490,7 @@
 				2F4F75B822D220ED00EFFE37 /* GradeBondingViewController.swift in Sources */,
 				2F4F75B422D2205B00EFFE37 /* WelcomeViewController.swift in Sources */,
 				2F4F75BA22D2212900EFFE37 /* ResourcesViewController.swift in Sources */,
+				2FD02A3822DFA08F0037E428 /* ASPWebViewController.swift in Sources */,
 				2F4F75C222D2223800EFFE37 /* BusViewController.swift in Sources */,
 				2F4F75B222D20C4E00EFFE37 /* MapViewController.swift in Sources */,
 				2F4F75C622D2229600EFFE37 /* ShareViewController.swift in Sources */,
