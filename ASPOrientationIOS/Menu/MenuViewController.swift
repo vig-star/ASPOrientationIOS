@@ -164,10 +164,13 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
         return groupItem?.menuItems.count ?? 0
     }
     
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 70
+    }
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         let groupItem = menuGroup?[section]
         if (!groupItem!.hidden)  {
-            return 50
+            return 70
         }else {
             return 0
         }
@@ -176,8 +179,8 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
         let groupItem = menuGroup?[section]
         if (!groupItem!.hidden)  {
             let view = UIView()
-            view.backgroundColor = UIColor.red
-            let groupTitle = UILabel(frame: CGRect(x: 10, y: 10, width: 200, height: 30))
+            view.backgroundColor = UIColor.white
+            let groupTitle = UILabel(frame: CGRect(x: 10, y: 10, width: 200, height: 50))
             groupTitle.text = groupItem?.groupName
             view.addSubview(groupTitle)
             return view
@@ -200,7 +203,12 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
         let menuItem =  groupItem?.menuItems[indexPath.row]
         if (menuItem?.title == "Home") {
             if ((self.navigationController?.viewControllers .contains(homeViewController))!) {
-                self.navigationController?.popToViewController(homeViewController, animated: true)
+                if(self.navigationController?.topViewController == homeViewController){
+                    self.dismiss(animated: true, completion: nil)
+                }else {
+                    self.navigationController?.popToViewController(homeViewController, animated: true)
+                }
+
             }else {
                 self.navigationController?.pushViewController(homeViewController, animated: true)
             }
