@@ -103,6 +103,12 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
         return viewController
     }()
     
+    lazy var webViewController: ASPWebViewController = {
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        var viewController = storyboard.instantiateViewController(withIdentifier: "ASPWebViewController") as! ASPWebViewController
+        return viewController
+    }()
+    
     lazy var shareViewController: ShareViewController = {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         var viewController = storyboard.instantiateViewController(withIdentifier: "ShareViewController") as! ShareViewController
@@ -269,10 +275,17 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
         }else if (menuItem?.title == "School Calendar") {
 //            UIApplication.shared.open(URL(string: "https://sites.google.com/a/asparis.fr/navcom/calus?pli=1")! as URL, options: [:], completionHandler: nil)
             
-            if ((self.navigationController?.viewControllers .contains(calendarViewController))!) {
+            /*if ((self.navigationController?.viewControllers .contains(calendarViewController))!) {
                 self.navigationController?.popToViewController(calendarViewController, animated: true)
             }else {
                 self.navigationController?.pushViewController(calendarViewController, animated: true)
+            }*/
+            if ((self.navigationController?.viewControllers .contains(webViewController))!) {
+                webViewController.urlString = "https://sites.google.com/a/asparis.fr/navcom/calus?pli=1"
+                self.navigationController?.popToViewController(webViewController, animated: true)
+            }else {
+                webViewController.urlString = "https://sites.google.com/a/asparis.fr/navcom/calus?pli=1"
+                self.navigationController?.pushViewController(webViewController, animated: true)
             }
         }else if (menuItem?.title == "Share") {
             if ((self.navigationController?.viewControllers .contains(shareViewController))!) {

@@ -82,14 +82,15 @@ class ResourcesViewController: ASPViewController {
         let linkedText = NSMutableAttributedString(attributedString: mainTextView.attributedText)
         let link1 = linkedText.setAsLink(textToFind: "ASP Website", linkURL: "https://www.asparis.org/")
         let link2 = linkedText.setAsLink(textToFind: "Parent Portal", linkURL: "https://www.asparis.org/parentportal/home")
-        let link3 = linkedText.setAsLink(textToFind: "Haiku Portal", linkURL: "https://powerschool.asparis.fr/public/home.html")
-        let link4 = linkedText.setAsLink(textToFind: "School Directory", linkURL: "https://resources.finalsite.net/images/v1543583491/asp/thl1v5gyhagwmtbcf8oq/WholeDirectory2018-2019.pdf")
-        let link5 = linkedText.setAsLink(textToFind: "Sawiris Family Library", linkURL: "http://libraries.asparis.fr/thehub")
+        let link3 = linkedText.setAsLink(textToFind: "PowerSchool Parent Portal", linkURL: "https://powerschool.asparis.fr/public/home.html")
+        let link4 = linkedText.setAsLink(textToFind: "Haiku Portal", linkURL: "https://asparis.learning.powerschool.com/do/account/login")
+        let link5 = linkedText.setAsLink(textToFind: "School Directory", linkURL: "https://resources.finalsite.net/images/v1543583491/asp/thl1v5gyhagwmtbcf8oq/WholeDirectory2018-2019.pdf")
+        let link6 = linkedText.setAsLink(textToFind: "Sawiris Family Library", linkURL: "http://libraries.asparis.fr/thehub")
         
-        if link1 && link2 && link3 && link4 && link5 {
+        if link1 && link2 && link3 && link4 && link5 && link6 {
             mainTextView.attributedText = NSAttributedString(attributedString: linkedText)
         }
-        UITextView.appearance().linkTextAttributes = [ .foregroundColor: UIColor.red ]
+        UITextView.appearance().linkTextAttributes = [ .foregroundColor: UIColor.red, .underlineStyle: NSUnderlineStyle.single.rawValue]
         /*
         line0String.replace(placeholder: "@ASP@", with: "ASP Website", url: "https://www.asparis.org/")
         line0String.replace(placeholder: "@Parent@", with: "Parent Portal", url: "https://www.asparis.org/parentportal/home")

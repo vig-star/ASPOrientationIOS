@@ -33,7 +33,7 @@ class ShareViewController: ASPViewController {
         webViewController.urlString = "https://www.facebook.com/AmericanSchoolOfParis"
         self.navigationController?.pushViewController(webViewController, animated: true)
         
-        UIApplication.shared.open(URL(string: "https://www.facebook.com/AmericanSchoolOfParis")! as URL, options: [:], completionHandler: nil)
+        //UIApplication.shared.open(URL(string: "https://www.facebook.com/AmericanSchoolOfParis")! as URL, options: [:], completionHandler: nil)
     }
     
     @IBAction func onButtonPressedTwitter(_ sender: Any) {
