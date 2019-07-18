@@ -18,7 +18,7 @@ class AthleticsViewController: ASPViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.setupTitle(title: "ASP Athletics")
         // Do any additional setup after loading the view.
     }
     
@@ -32,7 +32,7 @@ class AthleticsViewController: ASPViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    @IBAction func onButtonPressedAthletics(_ sender: Any) {
+    @IBAction func onButtonPressedLower(_ sender: Any) {
 //
         webViewController.urlString = "https://www.asparis.org/athletics/lower-school-sports-and-activities"
     self.navigationController?.pushViewController(webViewController, animated: true)
@@ -46,11 +46,15 @@ class AthleticsViewController: ASPViewController {
     
     }
     @IBAction func onButtonPressedUpper(_ sender: Any) {
-        UIApplication.shared.open(URL(string: "https://www.asparis.org/athletics/upper-school-sports-and-activities")! as URL, options: [:], completionHandler: nil)
+        webViewController.urlString = "https://www.asparis.org/athletics/upper-school-sports-and-activities"
+        self.navigationController?.pushViewController(webViewController, animated: true)
+        
     }
     
     @IBAction func onButtonPressedPortal(_ sender: Any) {
-        UIApplication.shared.open(URL(string: "https://www.asparis.org/parentportal/athletics")! as URL, options: [:], completionHandler: nil)
+        webViewController.urlString = "https://www.asparis.org/parentportal/athletics"
+        self.navigationController?.pushViewController(webViewController, animated: true)
+       
     }
     @IBAction func onButtonPressedInsta(_ sender: Any) {
         UIApplication.shared.open(URL(string: "https://www.instagram.com/athleticsaspofficial/")! as URL, options: [:], completionHandler: nil)

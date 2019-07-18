@@ -9,15 +9,23 @@
 import UIKit
 
 class CalendarViewController: ASPViewController {
+    
+    lazy var webViewController: ASPWebViewController = {
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        var viewController = storyboard.instantiateViewController(withIdentifier: "ASPWebViewController") as! ASPWebViewController
+        return viewController
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.setupTitle(title: "ASP Calendar")
         // Do any additional setup after loading the view.
     }
     
     @IBAction func onButtonPressedCalendar(_ sender: Any) {
-        UIApplication.shared.open(URL(string: "https://sites.google.com/a/asparis.fr/navcom/calus?pli=1")! as URL, options: [:], completionHandler: nil)
+        webViewController.urlString = "https://sites.google.com/a/asparis.fr/navcom/calus?pli=1"
+        self.navigationController?.pushViewController(webViewController, animated: true)
+        
     }
     
     /*

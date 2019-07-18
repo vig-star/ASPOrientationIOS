@@ -9,31 +9,52 @@
 import UIKit
 
 class ShareViewController: ASPViewController {
+    
+    lazy var webViewController: ASPWebViewController = {
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        var viewController = storyboard.instantiateViewController(withIdentifier: "ASPWebViewController") as! ASPWebViewController
+        return viewController
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.setupTitle(title: "Share")
         // Do any additional setup after loading the view.
     }
     
     @IBAction func onButtonPressedInsta(_ sender: Any) {
-        UIApplication.shared.open(URL(string: "https://www.instagram.com/americanschoolofparisofficial/")! as URL, options: [:], completionHandler: nil)
+        webViewController.urlString = "https://www.instagram.com/americanschoolofparisofficial/"
+        self.navigationController?.pushViewController(webViewController, animated: true)
+        
+        //UIApplication.shared.open(URL(string: "https://www.instagram.com/americanschoolofparisofficial/")! as URL, options: [:], completionHandler: nil)
     }
     
     @IBAction func onButtonPressedFB(_ sender: Any) {
+        webViewController.urlString = "https://www.facebook.com/AmericanSchoolOfParis"
+        self.navigationController?.pushViewController(webViewController, animated: true)
+        
         UIApplication.shared.open(URL(string: "https://www.facebook.com/AmericanSchoolOfParis")! as URL, options: [:], completionHandler: nil)
     }
     
     @IBAction func onButtonPressedTwitter(_ sender: Any) {
-        UIApplication.shared.open(URL(string: "https://twitter.com/asparisofficial")! as URL, options: [:], completionHandler: nil)
+        webViewController.urlString = "https://twitter.com/asparisofficial"
+        self.navigationController?.pushViewController(webViewController, animated: true)
+        
+        //UIApplication.shared.open(URL(string: "https://twitter.com/asparisofficial")! as URL, options: [:], completionHandler: nil)
     }
     
     @IBAction func onButtonPressedVimeo(_ sender: Any) {
-        UIApplication.shared.open(URL(string: "https://vimeo.com/americanschoolofparis/")! as URL, options: [:], completionHandler: nil)
+        webViewController.urlString = "https://vimeo.com/americanschoolofparis/"
+        self.navigationController?.pushViewController(webViewController, animated: true)
+        
+        //UIApplication.shared.open(URL(string: "https://vimeo.com/americanschoolofparis/")! as URL, options: [:], completionHandler: nil)
     }
     
     @IBAction func onButtonPressedLinkedin(_ sender: Any) {
-        UIApplication.shared.open(URL(string: "https://www.linkedin.com/company/american-school-of-paris")! as URL, options: [:], completionHandler: nil)
+        webViewController.urlString = "https://www.linkedin.com/company/american-school-of-paris"
+        self.navigationController?.pushViewController(webViewController, animated: true)
+        
+        //UIApplication.shared.open(URL(string: "https://www.linkedin.com/company/american-school-of-paris")! as URL, options: [:], completionHandler: nil)
     }
     
     

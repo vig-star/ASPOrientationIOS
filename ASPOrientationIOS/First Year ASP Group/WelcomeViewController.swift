@@ -9,9 +9,17 @@
 import UIKit
 
 class WelcomeViewController: ASPViewController {
+    
+    lazy var webViewController: ASPWebViewController = {
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        var viewController = storyboard.instantiateViewController(withIdentifier: "ASPWebViewController") as! ASPWebViewController
+        return viewController
+    }()
+    
     @IBOutlet  weak var textView: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        textView.isScrollEnabled = false
         self.setupTitle(title: "ASP Welcome Program")
         // Do any additional setup after loading the view.
         
@@ -33,9 +41,9 @@ class WelcomeViewController: ASPViewController {
         
         
         //Here we can modify the attributes continue ... i will watch sounds good
-        let samllAttributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 11), NSAttributedString.Key.foregroundColor: UIColor.white]
+        let samllAttributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 11), NSAttributedString.Key.foregroundColor: UIColor.yellow]
         let regularAttributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 13), NSAttributedString.Key.foregroundColor: UIColor.white]
-        let largeAttributes = [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 15), NSAttributedString.Key.foregroundColor: UIColor.white]
+        let largeAttributes = [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 15), NSAttributedString.Key.foregroundColor: UIColor.yellow]
         
         
         let line1String = NSMutableAttributedString(string: line1, attributes: largeAttributes)
@@ -65,7 +73,6 @@ class WelcomeViewController: ASPViewController {
         line1String.append(line10String)
         line1String.append(line11String)
         line1String.append(line12String)
-//        line1String.append(line5String)
         
         textView.attributedText = line1String
     }
@@ -80,5 +87,9 @@ class WelcomeViewController: ASPViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    override func viewDidAppear(_ animated: Bool) {
+        textView.isScrollEnabled = true
+    }
 
 }

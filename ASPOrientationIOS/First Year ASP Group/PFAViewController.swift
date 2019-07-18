@@ -10,6 +10,12 @@ import UIKit
 
 class PFAViewController: ASPViewController {
     
+    lazy var webViewController: ASPWebViewController = {
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        var viewController = storyboard.instantiateViewController(withIdentifier: "ASPWebViewController") as! ASPWebViewController
+        return viewController
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupTitle(title: "Parent Faculty Association")
@@ -26,7 +32,9 @@ class PFAViewController: ASPViewController {
     
     
     @IBAction func onParent2Pressed(_ sender: Any) {
-        UIApplication.shared.open(URL(string: "https://www.asparis.org/our-community/community-events")! as URL, options: [:], completionHandler: nil)
+        webViewController.urlString = "https://www.asparis.org/our-community/community-events"
+        self.navigationController?.pushViewController(webViewController, animated: true)
+        
     }
     
     

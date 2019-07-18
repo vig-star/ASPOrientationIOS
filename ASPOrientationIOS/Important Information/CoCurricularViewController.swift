@@ -9,27 +9,41 @@
 import UIKit
 
 class CoCurricularViewController: ASPViewController {
+    
+    lazy var webViewController: ASPWebViewController = {
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        var viewController = storyboard.instantiateViewController(withIdentifier: "ASPWebViewController") as! ASPWebViewController
+        return viewController
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.setupTitle(title: "ASP Co-Curricular Activities")
         // Do any additional setup after loading the view.
     }
     
     @IBAction func onButtonPressedLS(_ sender: Any) {
-        UIApplication.shared.open(URL(string: "https://www.asparis.org/student-life/curricular/lower-school")! as URL, options: [:], completionHandler: nil)
+        webViewController.urlString = "https://www.asparis.org/student-life/curricular/lower-school"
+        self.navigationController?.pushViewController(webViewController, animated: true)
+        
     }
     
     @IBAction func onButtonPressedMS(_ sender: Any) {
-        UIApplication.shared.open(URL(string: "https://www.asparis.org/student-life/curricular/middle-school")! as URL, options: [:], completionHandler: nil)
+        webViewController.urlString = "https://www.asparis.org/student-life/curricular/middle-school"
+        self.navigationController?.pushViewController(webViewController, animated: true)
+        
     }
     
     @IBAction func onButtonPressedUS(_ sender: Any) {
-        UIApplication.shared.open(URL(string: "https://www.asparis.org/student-life/curricular/upper-school")! as URL, options: [:], completionHandler: nil)
+        webViewController.urlString = "https://www.asparis.org/student-life/curricular/upper-school"
+        self.navigationController?.pushViewController(webViewController, animated: true)
+        
     }
     
     @IBAction func onButtonPressedPortal(_ sender: Any) {
-        UIApplication.shared.open(URL(string: "https://www.asparis.org/parentportal/cocurriculars")! as URL, options: [:], completionHandler: nil)
+        webViewController.urlString = "https://www.asparis.org/parentportal/cocurriculars"
+        self.navigationController?.pushViewController(webViewController, animated: true)
+        
     }
     
     /*
