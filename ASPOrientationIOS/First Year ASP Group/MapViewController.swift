@@ -7,13 +7,23 @@
 //
 
 import UIKit
+import ImageScrollView
 
 class MapViewController: ASPViewController {
+    
+    @IBOutlet weak var imageScrollView: ImageScrollView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupTitle(title: "Campus Map")
+        
         // Do any additional setup after loading the view.
+        
+        imageScrollView.setup()
+        
+        let mapImage = UIImage(named: "campusmap")!
+        imageScrollView.display(image: mapImage)
+       // imageScrollView.imageScrollViewDelegate = self
     }
     
 
@@ -28,3 +38,17 @@ class MapViewController: ASPViewController {
     */
 
 }
+
+//extension MapViewController: ImageScrollViewDelegate {
+//    func imageScrollViewDidChangeOrientation(imageScrollView: ImageScrollView) {
+//        print("Did change orientation")
+//    }
+//
+//    func scrollViewDidEndZooming(_ scrollView: UIScrollView, with view: UIView?, atScale scale: CGFloat) {
+//        print("scrollViewDidEndZooming at scale \(scale)")
+//    }
+//
+//    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+//        print("scrollViewDidScroll at offset \(scrollView.contentOffset)")
+//    }
+//}

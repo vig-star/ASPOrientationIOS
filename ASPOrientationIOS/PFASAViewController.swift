@@ -14,7 +14,7 @@ class PFASAViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         pTextView.isScrollEnabled = false
-        
+        self.navigationController?.isNavigationBarHidden = false
         let line1 = "PFA Welcome Coffee \n"
         let line2 = "Please join us to meet this year's PFA team. We will get to know each other and briefly explore the opportunities for involvement in the school.\n\n\n"
         

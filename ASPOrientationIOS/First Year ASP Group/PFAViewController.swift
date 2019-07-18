@@ -16,8 +16,17 @@ class PFAViewController: ASPViewController {
         return viewController
     }()
     
+    lazy var pfasavViewController: PFASAViewController = {
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        var viewController = storyboard.instantiateViewController(withIdentifier: "PFASAViewController") as! PFASAViewController
+        return viewController
+    }()
+    
+    //PFASAViewController
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.isNavigationBarHidden = false
         self.setupTitle(title: "Parent Faculty Association")
         // Do any additional setup after loading the view.
     }
@@ -27,7 +36,8 @@ class PFAViewController: ASPViewController {
     }
     
     @IBAction func onParentPressed(_ sender: Any) {
-        self.performSegue(withIdentifier: "SecondViewSegue", sender: self)
+      
+        self.navigationController?.pushViewController(pfasavViewController, animated: true)
     }
     
     

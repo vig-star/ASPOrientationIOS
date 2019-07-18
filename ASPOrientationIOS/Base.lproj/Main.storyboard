@@ -127,21 +127,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="campusmap" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sCa-RH-BqE">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jne-WQ-6Of" customClass="ImageScrollView" customModule="ImageScrollView">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <color key="backgroundColor" red="0.1198485866" green="0.2224524021" blue="0.42172965410000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.1198485866" green="0.2224524021" blue="0.42172965410000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="sCa-RH-BqE" firstAttribute="top" secondItem="ub5-JB-sW4" secondAttribute="top" id="2Er-9h-kt3"/>
-                            <constraint firstItem="sCa-RH-BqE" firstAttribute="leading" secondItem="ub5-JB-sW4" secondAttribute="leading" id="57c-d4-i68"/>
-                            <constraint firstAttribute="bottom" secondItem="sCa-RH-BqE" secondAttribute="bottom" id="RSA-bW-rh8"/>
-                            <constraint firstItem="sCa-RH-BqE" firstAttribute="trailing" secondItem="ub5-JB-sW4" secondAttribute="trailing" id="Rxj-Ws-Wpw"/>
+                            <constraint firstItem="ub5-JB-sW4" firstAttribute="bottom" secondItem="jne-WQ-6Of" secondAttribute="bottom" id="Blr-2b-KTd"/>
+                            <constraint firstItem="ub5-JB-sW4" firstAttribute="trailing" secondItem="jne-WQ-6Of" secondAttribute="trailing" id="Ril-Jr-jHO"/>
+                            <constraint firstItem="jne-WQ-6Of" firstAttribute="top" secondItem="ub5-JB-sW4" secondAttribute="top" id="cgO-lz-a5y"/>
+                            <constraint firstItem="jne-WQ-6Of" firstAttribute="leading" secondItem="ub5-JB-sW4" secondAttribute="leading" id="uHG-cW-DbR"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ub5-JB-sW4"/>
                     </view>
                     <navigationItem key="navigationItem" id="AcF-WS-yKb"/>
+                    <connections>
+                        <outlet property="imageScrollView" destination="jne-WQ-6Of" id="4k6-NZ-8zc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HbD-CI-Y2K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -248,9 +250,6 @@
                         <viewLayoutGuide key="safeArea" id="5gZ-Pr-1wC"/>
                     </view>
                     <navigationItem key="navigationItem" id="Unw-UF-wwz"/>
-                    <connections>
-                        <segue destination="vxZ-BR-ggx" kind="showDetail" identifier="SecondViewSegue" id="wQ2-9g-g2P"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KIx-Nk-nnJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -259,23 +258,13 @@
         <!--PFASA View Controller-->
         <scene sceneID="fB3-4v-xOE">
             <objects>
-                <viewController storyboardIdentifier="PFASAViewController" id="vxZ-BR-ggx" userLabel="PFASA View Controller" customClass="PFASAViewController" customModule="ASPOrientationIOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="PFASAViewController" storyboardIdentifier="PFASAViewController" id="vxZ-BR-ggx" userLabel="PFASA View Controller" customClass="PFASAViewController" customModule="ASPOrientationIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iOF-Gm-Bd1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TcA-29-yps" userLabel="back">
-                                <rect key="frame" x="10" y="40" width="355" height="34"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                <state key="normal" title="Back">
-                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="onBackPressed:" destination="vxZ-BR-ggx" eventType="touchUpInside" id="zhp-UA-gnB"/>
-                                </connections>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tm9-hU-LEL">
-                                <rect key="frame" x="26" y="79" width="323" height="578"/>
+                                <rect key="frame" x="26" y="30" width="323" height="627"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -283,13 +272,10 @@
                         </subviews>
                         <color key="backgroundColor" red="0.22352941179999999" green="0.18823529410000001" blue="0.45098039220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="tm9-hU-LEL" firstAttribute="top" secondItem="TcA-29-yps" secondAttribute="bottom" constant="5" id="4YX-60-9bQ"/>
-                            <constraint firstItem="TcA-29-yps" firstAttribute="top" secondItem="Pb2-3W-ah9" secondAttribute="top" constant="20" id="8fx-tt-4gM"/>
                             <constraint firstAttribute="trailingMargin" secondItem="tm9-hU-LEL" secondAttribute="trailing" constant="10" id="NNt-Y9-PrF"/>
                             <constraint firstItem="tm9-hU-LEL" firstAttribute="leading" secondItem="iOF-Gm-Bd1" secondAttribute="leadingMargin" constant="10" id="NnH-eX-1GB"/>
                             <constraint firstItem="Pb2-3W-ah9" firstAttribute="bottom" secondItem="tm9-hU-LEL" secondAttribute="bottom" constant="10" id="PcH-5C-gb7"/>
-                            <constraint firstItem="TcA-29-yps" firstAttribute="leading" secondItem="Pb2-3W-ah9" secondAttribute="leading" constant="10" id="hDn-q6-CM3"/>
-                            <constraint firstAttribute="trailing" secondItem="TcA-29-yps" secondAttribute="trailing" constant="10" id="z7S-IG-Qv0"/>
+                            <constraint firstItem="tm9-hU-LEL" firstAttribute="top" secondItem="Pb2-3W-ah9" secondAttribute="top" constant="10" id="W9L-bq-n9E"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Pb2-3W-ah9"/>
                     </view>
@@ -386,8 +372,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="onButtonPressedAthletics:" destination="sYI-ia-9Mh" eventType="touchUpInside" id="vKq-P1-iQB"/>
-                                    <action selector="onParent2Pressed:" destination="HOG-6S-Riq" eventType="touchUpInside" id="zwP-e9-DB4"/>
+                                    <action selector="onButtonPressedLower:" destination="sYI-ia-9Mh" eventType="touchUpInside" id="mpd-ea-AN3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BQg-31-laJ">
@@ -1069,7 +1054,6 @@
         <image name="athletics2" width="512" height="512"/>
         <image name="buses" width="1608" height="528"/>
         <image name="cafeteria" width="1527" height="528"/>
-        <image name="campusmap" width="879" height="1317"/>
         <image name="chess" width="566" height="416"/>
         <image name="home" width="72" height="72"/>
         <image name="homescreen" width="1398" height="2000"/>

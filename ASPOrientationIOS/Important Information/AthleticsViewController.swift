@@ -32,12 +32,21 @@ class AthleticsViewController: ASPViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    //Hi
+    /*
+     Its crasing bcoz we dont have onButtonPressedAthletics ibAcion inside this class ...so it could not recognized
+     and its throwing this error which cause crash
+     Understood?
+     ?
+     ?
+     it not issue with link
+ */
+   
     @IBAction func onButtonPressedLower(_ sender: Any) {
-//
+        
         webViewController.urlString = "https://www.asparis.org/athletics/lower-school-sports-and-activities"
-    self.navigationController?.pushViewController(webViewController, animated: true)
-        
-        
+        self.navigationController?.pushViewController(webViewController, animated: true)
     }
     
     @IBAction func onButtonPressedMiddle(_ sender: Any) {
