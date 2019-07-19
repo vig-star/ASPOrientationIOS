@@ -66,7 +66,8 @@ class AthleticsViewController: ASPViewController {
        
     }
     @IBAction func onButtonPressedInsta(_ sender: Any) {
-        UIApplication.shared.open(URL(string: "https://www.instagram.com/athleticsaspofficial/")! as URL, options: [:], completionHandler: nil)
+        webViewController.urlString = "https://www.instagram.com/athleticsaspofficial/"
+        self.navigationController?.pushViewController(webViewController, animated: true)
     }
     
     
