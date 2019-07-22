@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '10.0'
+platform :ios, '11.0'
 
 workspace 'ASPOrientation'
 
@@ -11,7 +11,7 @@ target 'ASPOrientationIOS' do
   use_frameworks!
 
   # Pods for ASPOrientationIOS
-  pod 'SideMenu'
+  pod 'SideMenu', '~> 6.0.0'
   pod 'ImageScrollView'
 
 

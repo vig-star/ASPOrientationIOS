@@ -31,6 +31,9 @@ class ASPViewController: UIViewController {
         navigationItem.leftBarButtonItem = leftButton
         
         leftMenuNavigationController = (storyboard?.instantiateViewController(withIdentifier: "MenuViewController") as? UISideMenuNavigationController)!
+        
+        SideMenuManager.default.addPanGestureToPresent(toView: self.navigationController!.navigationBar)
+        SideMenuManager.default.addScreenEdgePanGesturesToPresent(toView: self.navigationController!.view)
         self.title = navTitle
     }
 

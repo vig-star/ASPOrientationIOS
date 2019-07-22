@@ -22,48 +22,35 @@ class ASPWebViewController: UIViewController, WKUIDelegate {
     private var estimatedProgressObserver: NSKeyValueObservation?
     
     override func loadView() {
-        
-       
-        
-        
-        
         let webConfiguration = WKWebViewConfiguration()
         webview = WKWebView(frame: .zero, configuration: webConfiguration)
         webview.uiDelegate = self
         view = webview
-        
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-       
-        // Do any additional setup after loading the view.
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
         setupProgressView()
         setupEstimatedProgressObserver()
-        
+        webview.load(URLRequest(url: URL(string: "about:blank")!))
         let link = URL(string: urlString)
         let urlRequest = URLRequest(url: link!)
+        webview.navigationDelegate = self
         webview.load(urlRequest)
-        
-       
     }
     
     private func setupProgressView() {
         guard let navigationBar = navigationController?.navigationBar else { return }
-        
         progressView.translatesAutoresizingMaskIntoConstraints = false
         navigationBar.addSubview(progressView)
-        
         progressView.isHidden = true
-        
         NSLayoutConstraint.activate([
             progressView.leadingAnchor.constraint(equalTo: navigationBar.leadingAnchor),
             progressView.trailingAnchor.constraint(equalTo: navigationBar.trailingAnchor),
-            
             progressView.bottomAnchor.constraint(equalTo: navigationBar.bottomAnchor),
             progressView.heightAnchor.constraint(equalToConstant: 2.0)
             ])

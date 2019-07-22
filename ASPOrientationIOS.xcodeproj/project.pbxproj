@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BA46F9F0D18294A28932337 /* Pods_ASPOrientationIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95C1EF54555C5911514006B6 /* Pods_ASPOrientationIOS.framework */; };
 		2F4F757E22D0B51700EFFE37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4F757D22D0B51700EFFE37 /* AppDelegate.swift */; };
 		2F4F758022D0B51700EFFE37 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4F757F22D0B51700EFFE37 /* HomeViewController.swift */; };
 		2F4F758322D0B51700EFFE37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4F758122D0B51700EFFE37 /* Main.storyboard */; };
@@ -33,9 +32,10 @@
 		2F85B34422DE1C48004EB8E0 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F85B34322DE1C48004EB8E0 /* MenuItem.swift */; };
 		2F85B34622DE1CC4004EB8E0 /* MenuGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F85B34522DE1CC4004EB8E0 /* MenuGroup.swift */; };
 		2FD02A3822DFA08F0037E428 /* ASPWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD02A3722DFA08F0037E428 /* ASPWebViewController.swift */; };
-		5CF154D8BC3FD701B993082E /* Pods_ASPOrientationIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70963A5E1F7615EDD45093C5 /* Pods_ASPOrientationIOSUITests.framework */; };
+		624F8EB71F340021749E9E0F /* Pods_ASPOrientationIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB5CADF3AC13FCB7811BD87 /* Pods_ASPOrientationIOSTests.framework */; };
 		84B9E85F22DF3AAC009406DD /* ASPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B9E85E22DF3AAC009406DD /* ASPViewController.swift */; };
-		FFE01CB53A9DC41763566FCB /* Pods_ASPOrientationIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1138E599AC2B84A727B1B2 /* Pods_ASPOrientationIOSTests.framework */; };
+		A2AC8BD9CF31B6B4F02AEF6F /* Pods_ASPOrientationIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E30C48D002903DE3E69B4C0 /* Pods_ASPOrientationIOS.framework */; };
+		BC84E3EE93ECC66E4F61F5E1 /* Pods_ASPOrientationIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66232F060AD9F3D651DE9EF /* Pods_ASPOrientationIOSUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		274208A387B491740465BA97 /* Pods-ASPOrientationIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASPOrientationIOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASPOrientationIOSTests/Pods-ASPOrientationIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		00CCD1027DF076BD38AA7421 /* Pods-ASPOrientationIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASPOrientationIOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASPOrientationIOSTests/Pods-ASPOrientationIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		13E3572C2FDA31F974069CCC /* Pods-ASPOrientationIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASPOrientationIOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASPOrientationIOSTests/Pods-ASPOrientationIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2F4F757A22D0B51700EFFE37 /* ASPOrientationIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASPOrientationIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4F757D22D0B51700EFFE37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F4F757F22D0B51700EFFE37 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; usesTabs = 1; };
@@ -88,15 +89,14 @@
 		2F85B34322DE1C48004EB8E0 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		2F85B34522DE1CC4004EB8E0 /* MenuGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuGroup.swift; sourceTree = "<group>"; };
 		2FD02A3722DFA08F0037E428 /* ASPWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASPWebViewController.swift; sourceTree = "<group>"; };
-		40F44BF16170A2CA7276FD3F /* Pods-ASPOrientationIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASPOrientationIOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASPOrientationIOSUITests/Pods-ASPOrientationIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
-		70963A5E1F7615EDD45093C5 /* Pods_ASPOrientationIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASPOrientationIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38D897306B8F68B45C0D4D6E /* Pods-ASPOrientationIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASPOrientationIOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASPOrientationIOSUITests/Pods-ASPOrientationIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E30C48D002903DE3E69B4C0 /* Pods_ASPOrientationIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASPOrientationIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AAC9E255FB6D23C4D6ADBA5 /* Pods-ASPOrientationIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASPOrientationIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASPOrientationIOS/Pods-ASPOrientationIOS.release.xcconfig"; sourceTree = "<group>"; };
+		4FE9F36D6BD71C1E1DADE7BC /* Pods-ASPOrientationIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASPOrientationIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASPOrientationIOS/Pods-ASPOrientationIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		84B9E85E22DF3AAC009406DD /* ASPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASPViewController.swift; sourceTree = "<group>"; };
-		857AB2E6ED60F9D1CB680D76 /* Pods-ASPOrientationIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASPOrientationIOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASPOrientationIOSUITests/Pods-ASPOrientationIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		94AA505BB4D9454D8A748207 /* Pods-ASPOrientationIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASPOrientationIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASPOrientationIOS/Pods-ASPOrientationIOS.debug.xcconfig"; sourceTree = "<group>"; };
-		95C1EF54555C5911514006B6 /* Pods_ASPOrientationIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASPOrientationIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB1138E599AC2B84A727B1B2 /* Pods_ASPOrientationIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASPOrientationIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1E21236AFCA848715A6C62D /* Pods-ASPOrientationIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASPOrientationIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASPOrientationIOS/Pods-ASPOrientationIOS.release.xcconfig"; sourceTree = "<group>"; };
-		EB708FB0C465239844478ACF /* Pods-ASPOrientationIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASPOrientationIOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASPOrientationIOSTests/Pods-ASPOrientationIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A1DCF111C3D751A580A91AF /* Pods-ASPOrientationIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASPOrientationIOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASPOrientationIOSUITests/Pods-ASPOrientationIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8CB5CADF3AC13FCB7811BD87 /* Pods_ASPOrientationIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASPOrientationIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E66232F060AD9F3D651DE9EF /* Pods_ASPOrientationIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASPOrientationIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BA46F9F0D18294A28932337 /* Pods_ASPOrientationIOS.framework in Frameworks */,
+				A2AC8BD9CF31B6B4F02AEF6F /* Pods_ASPOrientationIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFE01CB53A9DC41763566FCB /* Pods_ASPOrientationIOSTests.framework in Frameworks */,
+				624F8EB71F340021749E9E0F /* Pods_ASPOrientationIOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,24 +120,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CF154D8BC3FD701B993082E /* Pods_ASPOrientationIOSUITests.framework in Frameworks */,
+				BC84E3EE93ECC66E4F61F5E1 /* Pods_ASPOrientationIOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2CD59ABD2E500DD7D88B639E /* Pods */ = {
+		0ECF79C8AC0ED55D74B52AF7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				94AA505BB4D9454D8A748207 /* Pods-ASPOrientationIOS.debug.xcconfig */,
-				C1E21236AFCA848715A6C62D /* Pods-ASPOrientationIOS.release.xcconfig */,
-				274208A387B491740465BA97 /* Pods-ASPOrientationIOSTests.debug.xcconfig */,
-				EB708FB0C465239844478ACF /* Pods-ASPOrientationIOSTests.release.xcconfig */,
-				857AB2E6ED60F9D1CB680D76 /* Pods-ASPOrientationIOSUITests.debug.xcconfig */,
-				40F44BF16170A2CA7276FD3F /* Pods-ASPOrientationIOSUITests.release.xcconfig */,
+				3E30C48D002903DE3E69B4C0 /* Pods_ASPOrientationIOS.framework */,
+				8CB5CADF3AC13FCB7811BD87 /* Pods_ASPOrientationIOSTests.framework */,
+				E66232F060AD9F3D651DE9EF /* Pods_ASPOrientationIOSUITests.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		2F4F757122D0B51600EFFE37 = {
@@ -147,8 +144,8 @@
 				2F4F759122D0B51900EFFE37 /* ASPOrientationIOSTests */,
 				2F4F759C22D0B51900EFFE37 /* ASPOrientationIOSUITests */,
 				2F4F757B22D0B51700EFFE37 /* Products */,
-				2CD59ABD2E500DD7D88B639E /* Pods */,
-				EA6ECE26A516C7FB19BAB0DC /* Frameworks */,
+				D66ABD2B77C8DD1A6530321D /* Pods */,
+				0ECF79C8AC0ED55D74B52AF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -244,14 +241,17 @@
 			path = "Important Information";
 			sourceTree = "<group>";
 		};
-		EA6ECE26A516C7FB19BAB0DC /* Frameworks */ = {
+		D66ABD2B77C8DD1A6530321D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				95C1EF54555C5911514006B6 /* Pods_ASPOrientationIOS.framework */,
-				BB1138E599AC2B84A727B1B2 /* Pods_ASPOrientationIOSTests.framework */,
-				70963A5E1F7615EDD45093C5 /* Pods_ASPOrientationIOSUITests.framework */,
+				4FE9F36D6BD71C1E1DADE7BC /* Pods-ASPOrientationIOS.debug.xcconfig */,
+				4AAC9E255FB6D23C4D6ADBA5 /* Pods-ASPOrientationIOS.release.xcconfig */,
+				13E3572C2FDA31F974069CCC /* Pods-ASPOrientationIOSTests.debug.xcconfig */,
+				00CCD1027DF076BD38AA7421 /* Pods-ASPOrientationIOSTests.release.xcconfig */,
+				38D897306B8F68B45C0D4D6E /* Pods-ASPOrientationIOSUITests.debug.xcconfig */,
+				8A1DCF111C3D751A580A91AF /* Pods-ASPOrientationIOSUITests.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,11 +261,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F4F75A222D0B51900EFFE37 /* Build configuration list for PBXNativeTarget "ASPOrientationIOS" */;
 			buildPhases = (
-				D197DEF3B291DB22647D4514 /* [CP] Check Pods Manifest.lock */,
+				6C09AB3581748CF5AFF32882 /* [CP] Check Pods Manifest.lock */,
 				2F4F757622D0B51600EFFE37 /* Sources */,
 				2F4F757722D0B51600EFFE37 /* Frameworks */,
 				2F4F757822D0B51600EFFE37 /* Resources */,
-				EEF907FAFCB41FC06D5CA97A /* [CP] Embed Pods Frameworks */,
+				FD4645A8243B11D88CA8941E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -280,7 +280,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F4F75A522D0B51900EFFE37 /* Build configuration list for PBXNativeTarget "ASPOrientationIOSTests" */;
 			buildPhases = (
-				4346B3CA4022363C308BA8C7 /* [CP] Check Pods Manifest.lock */,
+				4757EE6A71A38345C8853910 /* [CP] Check Pods Manifest.lock */,
 				2F4F758A22D0B51900EFFE37 /* Sources */,
 				2F4F758B22D0B51900EFFE37 /* Frameworks */,
 				2F4F758C22D0B51900EFFE37 /* Resources */,
@@ -299,7 +299,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F4F75A822D0B51900EFFE37 /* Build configuration list for PBXNativeTarget "ASPOrientationIOSUITests" */;
 			buildPhases = (
-				CD85797E3F49BD501BD68643 /* [CP] Check Pods Manifest.lock */,
+				E35FEF9B3E4731B4DEDBD1CE /* [CP] Check Pods Manifest.lock */,
 				2F4F759522D0B51900EFFE37 /* Sources */,
 				2F4F759622D0B51900EFFE37 /* Frameworks */,
 				2F4F759722D0B51900EFFE37 /* Resources */,
@@ -385,7 +385,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4346B3CA4022363C308BA8C7 /* [CP] Check Pods Manifest.lock */ = {
+		4757EE6A71A38345C8853910 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -407,29 +407,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CD85797E3F49BD501BD68643 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ASPOrientationIOSUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D197DEF3B291DB22647D4514 /* [CP] Check Pods Manifest.lock */ = {
+		6C09AB3581748CF5AFF32882 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -451,21 +429,50 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EEF907FAFCB41FC06D5CA97A /* [CP] Embed Pods Frameworks */ = {
+		E35FEF9B3E4731B4DEDBD1CE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ASPOrientationIOS/Pods-ASPOrientationIOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ASPOrientationIOS/Pods-ASPOrientationIOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ASPOrientationIOSUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ASPOrientationIOS/Pods-ASPOrientationIOS-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD4645A8243B11D88CA8941E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ASPOrientationIOS/Pods-ASPOrientationIOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ImageScrollView/ImageScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASPOrientationIOS/Pods-ASPOrientationIOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -668,7 +675,7 @@
 		};
 		2F4F75A322D0B51900EFFE37 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94AA505BB4D9454D8A748207 /* Pods-ASPOrientationIOS.debug.xcconfig */;
+			baseConfigurationReference = 4FE9F36D6BD71C1E1DADE7BC /* Pods-ASPOrientationIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -688,7 +695,7 @@
 		};
 		2F4F75A422D0B51900EFFE37 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1E21236AFCA848715A6C62D /* Pods-ASPOrientationIOS.release.xcconfig */;
+			baseConfigurationReference = 4AAC9E255FB6D23C4D6ADBA5 /* Pods-ASPOrientationIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -708,7 +715,7 @@
 		};
 		2F4F75A622D0B51900EFFE37 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 274208A387B491740465BA97 /* Pods-ASPOrientationIOSTests.debug.xcconfig */;
+			baseConfigurationReference = 13E3572C2FDA31F974069CCC /* Pods-ASPOrientationIOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -729,7 +736,7 @@
 		};
 		2F4F75A722D0B51900EFFE37 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB708FB0C465239844478ACF /* Pods-ASPOrientationIOSTests.release.xcconfig */;
+			baseConfigurationReference = 00CCD1027DF076BD38AA7421 /* Pods-ASPOrientationIOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -750,7 +757,7 @@
 		};
 		2F4F75A922D0B51900EFFE37 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 857AB2E6ED60F9D1CB680D76 /* Pods-ASPOrientationIOSUITests.debug.xcconfig */;
+			baseConfigurationReference = 38D897306B8F68B45C0D4D6E /* Pods-ASPOrientationIOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -770,7 +777,7 @@
 		};
 		2F4F75AA22D0B51900EFFE37 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40F44BF16170A2CA7276FD3F /* Pods-ASPOrientationIOSUITests.release.xcconfig */;
+			baseConfigurationReference = 8A1DCF111C3D751A580A91AF /* Pods-ASPOrientationIOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

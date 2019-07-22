@@ -1,10 +1,10 @@
 PODS:
   - ImageScrollView (1.8)
-  - SideMenu (6.0.0)
+  - SideMenu (6.0.7)
 
 DEPENDENCIES:
   - ImageScrollView
-  - SideMenu
+  - SideMenu (~> 6.0.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -13,8 +13,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   ImageScrollView: 82912273486297285682bdb2a806742f0d39940c
-  SideMenu: 1b826b95cc7db1a3c7d164f8a6e6e92506ffb0f5
+  SideMenu: e9b0268deba3ba6bc43d9aeaebd9cc02becda3b1
 
-PODFILE CHECKSUM: 278fe9341b51684762a3f4a8dc9ce2c76641966c
+PODFILE CHECKSUM: 0a6b14061f1ffbb0c1fe3d57caaa55f588db116a
 
-COCOAPODS: 1.7.4
+COCOAPODS: 1.5.2
