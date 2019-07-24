@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -29,6 +29,8 @@
 		2F4F75C822D2558500EFFE37 /* PFAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4F75C722D2558500EFFE37 /* PFAViewController.swift */; };
 		2F4F75CA22D2B99300EFFE37 /* PFASAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4F75C922D2B99300EFFE37 /* PFASAViewController.swift */; };
 		2F614A0322DD0BF600E1BD3F /* MenuItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F614A0222DD0BF500E1BD3F /* MenuItemTableViewCell.swift */; };
+		2F7C674722E8AD1200BDF147 /* aspicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F7C674622E8AD1200BDF147 /* aspicon.png */; };
+		2F7C674922E8AF4400BDF147 /* aspicon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F7C674822E8AF4400BDF147 /* aspicon2.png */; };
 		2F85B34422DE1C48004EB8E0 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F85B34322DE1C48004EB8E0 /* MenuItem.swift */; };
 		2F85B34622DE1CC4004EB8E0 /* MenuGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F85B34522DE1CC4004EB8E0 /* MenuGroup.swift */; };
 		2FD02A3822DFA08F0037E428 /* ASPWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD02A3722DFA08F0037E428 /* ASPWebViewController.swift */; };
@@ -86,6 +88,8 @@
 		2F4F75C722D2558500EFFE37 /* PFAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFAViewController.swift; sourceTree = "<group>"; };
 		2F4F75C922D2B99300EFFE37 /* PFASAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFASAViewController.swift; sourceTree = "<group>"; };
 		2F614A0222DD0BF500E1BD3F /* MenuItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemTableViewCell.swift; sourceTree = "<group>"; };
+		2F7C674622E8AD1200BDF147 /* aspicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aspicon.png; path = ../../../../../../../Desktop/aspicon.png; sourceTree = "<group>"; };
+		2F7C674822E8AF4400BDF147 /* aspicon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aspicon2.png; path = ../../../../../../../Desktop/aspicon2.png; sourceTree = "<group>"; };
 		2F85B34322DE1C48004EB8E0 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		2F85B34522DE1CC4004EB8E0 /* MenuGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuGroup.swift; sourceTree = "<group>"; };
 		2FD02A3722DFA08F0037E428 /* ASPWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASPWebViewController.swift; sourceTree = "<group>"; };
@@ -173,6 +177,8 @@
 				2F4F758422D0B51900EFFE37 /* Assets.xcassets */,
 				2F4F758622D0B51900EFFE37 /* LaunchScreen.storyboard */,
 				2F4F758922D0B51900EFFE37 /* Info.plist */,
+				2F7C674822E8AF4400BDF147 /* aspicon2.png */,
+				2F7C674622E8AD1200BDF147 /* aspicon.png */,
 				2F4F75AD22D0F49500EFFE37 /* ASPOrientationIOS.swift */,
 			);
 			path = ASPOrientationIOS;
@@ -363,6 +369,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F4F758822D0B51900EFFE37 /* LaunchScreen.storyboard in Resources */,
+				2F7C674722E8AD1200BDF147 /* aspicon.png in Resources */,
+				2F7C674922E8AF4400BDF147 /* aspicon2.png in Resources */,
 				2F4F758522D0B51900EFFE37 /* Assets.xcassets in Resources */,
 				2F4F758322D0B51700EFFE37 /* Main.storyboard in Resources */,
 			);

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -76,13 +76,13 @@
 		1A142F696AA49C1070B499D3FACE941A /* Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecations.swift; path = Pod/Classes/Deprecations.swift; sourceTree = "<group>"; };
 		1AD3A613E4DDE3AE3A83D22AC0A4FDB7 /* Pods-ASPOrientationIOSUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ASPOrientationIOSUITests.modulemap"; sourceTree = "<group>"; };
 		2222A74C64AAF342F59DEFBBA8F3EA46 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		26F6EB359AF3E52410AD64F2B8B28C60 /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenu.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		26F6EB359AF3E52410AD64F2B8B28C60 /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B25793E6AF59BDF77EDB2CA048054DB /* Pods-ASPOrientationIOSUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASPOrientationIOSUITests-frameworks.sh"; sourceTree = "<group>"; };
 		2C387037EA6840DF73559917595FA8BC /* Pods-ASPOrientationIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASPOrientationIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2FAF08BCA2FB71F32CAB1EAC24171C22 /* Pods-ASPOrientationIOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASPOrientationIOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		32B65A23AEB3A1EE7B72A6B9CAC0FAD0 /* Pods-ASPOrientationIOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASPOrientationIOS-resources.sh"; sourceTree = "<group>"; };
-		335929DF169633947BE7AB9EE9E0362D /* ImageScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImageScrollView.framework; path = ImageScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		335929DF169633947BE7AB9EE9E0362D /* ImageScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3569965FE27AD8B31937422CA50DB935 /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
 		360B9A4B390E70F3D5D95E45EEA8E083 /* Print.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Print.swift; path = Pod/Classes/Print.swift; sourceTree = "<group>"; };
 		381A98C674C56B71934ABA62ACC4744A /* Pods-ASPOrientationIOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ASPOrientationIOSTests.modulemap"; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 		5AEB26806E8268718460F4EA94688F39 /* Pods-ASPOrientationIOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASPOrientationIOS-umbrella.h"; sourceTree = "<group>"; };
 		63647C87CE1D67A338A668E3D8309E4D /* Pods-ASPOrientationIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASPOrientationIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6368D14726F090B96E79E23450E9E81E /* ImageScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageScrollView-dummy.m"; sourceTree = "<group>"; };
-		666670C4796FBDDE5767D7E8356ECB22 /* Pods_ASPOrientationIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ASPOrientationIOS.framework; path = "Pods-ASPOrientationIOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		666670C4796FBDDE5767D7E8356ECB22 /* Pods_ASPOrientationIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASPOrientationIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E9BBE7AF4BEE931E9343376A667E95 /* SideMenuTransitionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransitionController.swift; path = Pod/Classes/SideMenuTransitionController.swift; sourceTree = "<group>"; };
 		6E4A071B5EE291CDEFF040AC17A4CE6D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		754E4AFA06DEF1E898B460D934137523 /* ImageScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageScrollView.swift; path = Sources/ImageScrollView.swift; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 		A29A211C3ED07505FCF411C187F500FE /* Pods-ASPOrientationIOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASPOrientationIOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A43D77DF85A69092B1C48A2DEF74C221 /* Pods-ASPOrientationIOSUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASPOrientationIOSUITests-dummy.m"; sourceTree = "<group>"; };
 		A4E94770FD37F69AD211A51FE856B500 /* Initializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Initializable.swift; path = Pod/Classes/Initializable.swift; sourceTree = "<group>"; };
-		A9C634F3A70D4D367D4004AE8CB37AFA /* Pods_ASPOrientationIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ASPOrientationIOSTests.framework; path = "Pods-ASPOrientationIOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C634F3A70D4D367D4004AE8CB37AFA /* Pods_ASPOrientationIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASPOrientationIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA4D08BAACFA6496D2E6337E9F605625 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC24A3E28DD776742CA499907BB1274C /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISideMenuNavigationController.swift; path = Pod/Classes/UISideMenuNavigationController.swift; sourceTree = "<group>"; };
 		B706169F5EF25C8FC4CC2819220A6468 /* SideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.xcconfig; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 		EA5F054319EEC92FC6CB7E5B520F681C /* Pods-ASPOrientationIOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASPOrientationIOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		EBF288FF2DC3AF1A0098CB77096C8DD9 /* ImageScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageScrollView-prefix.pch"; sourceTree = "<group>"; };
 		FB05D21BE45D6A7E9B51D5A5637126C6 /* Pods-ASPOrientationIOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASPOrientationIOSTests-umbrella.h"; sourceTree = "<group>"; };
-		FEC8C5453FD17EA2A4027B7C4123A1C1 /* Pods_ASPOrientationIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ASPOrientationIOSUITests.framework; path = "Pods-ASPOrientationIOSUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC8C5453FD17EA2A4027B7C4123A1C1 /* Pods_ASPOrientationIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASPOrientationIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,7 +207,6 @@
 				DD1CB1419C05B604FC56A3FC4235F940 /* UITableViewVibrantCell.swift */,
 				E24F4E77732AF0A63E03C47C3A13F886 /* Support Files */,
 			);
-			name = SideMenu;
 			path = SideMenu;
 			sourceTree = "<group>";
 		};
@@ -347,7 +346,6 @@
 				754E4AFA06DEF1E898B460D934137523 /* ImageScrollView.swift */,
 				C01E9F1430F2706300EA80E5B006AB3A /* Support Files */,
 			);
-			name = ImageScrollView;
 			path = ImageScrollView;
 			sourceTree = "<group>";
 		};
@@ -498,14 +496,15 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = C6ADA187CA25D1DDF4A5DABD183332D6 /* Products */;
@@ -662,11 +661,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ASPOrientationIOSTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ASPOrientationIOSTests/Pods-ASPOrientationIOSTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -700,11 +695,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ASPOrientationIOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ASPOrientationIOS/Pods-ASPOrientationIOS.modulemap";
 				OTHER_LDFLAGS = "";
@@ -737,11 +728,7 @@
 				INFOPLIST_FILE = "Target Support Files/ImageScrollView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ImageScrollView/ImageScrollView.modulemap";
 				PRODUCT_MODULE_NAME = ImageScrollView;
 				PRODUCT_NAME = ImageScrollView;
@@ -773,11 +760,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ASPOrientationIOSUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ASPOrientationIOSUITests/Pods-ASPOrientationIOSUITests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -811,11 +794,7 @@
 				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
 				PRODUCT_MODULE_NAME = SideMenu;
 				PRODUCT_NAME = SideMenu;
@@ -914,11 +893,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ASPOrientationIOSTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ASPOrientationIOSTests/Pods-ASPOrientationIOSTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -953,11 +928,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ASPOrientationIOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ASPOrientationIOS/Pods-ASPOrientationIOS.modulemap";
 				OTHER_LDFLAGS = "";
@@ -992,11 +963,7 @@
 				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
 				PRODUCT_MODULE_NAME = SideMenu;
 				PRODUCT_NAME = SideMenu;
@@ -1028,11 +995,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ASPOrientationIOSUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ASPOrientationIOSUITests/Pods-ASPOrientationIOSUITests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1066,11 +1029,7 @@
 				INFOPLIST_FILE = "Target Support Files/ImageScrollView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ImageScrollView/ImageScrollView.modulemap";
 				PRODUCT_MODULE_NAME = ImageScrollView;
 				PRODUCT_NAME = ImageScrollView;
@@ -1140,8 +1099,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};

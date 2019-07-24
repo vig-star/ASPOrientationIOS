@@ -12,6 +12,6 @@ import UIKit
 class HomeViewController: ASPViewController {
     override func viewDidLoad() {
 		super.viewDidLoad()
-		self.title = "ASP Orientation"
+		self.title = "Home"
 	  }
 }
