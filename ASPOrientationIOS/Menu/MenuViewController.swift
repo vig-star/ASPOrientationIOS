@@ -14,7 +14,7 @@ enum MenuType: Int{
     case map
     case welcome
     case parent
-    case gradebonding
+    case contact
     case important
     case onlineresources
     case athletics
@@ -135,8 +135,7 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
         var firstYearASPGroupItems: Array<MenuItem>
         firstYearASPGroupItems = [MenuItem(title: "Campus Map", iconName: "map"),
                                   MenuItem(title: "ASP Welcome Program", iconName: "welcome"),
-                                  MenuItem(title: "Parent Faculty Association", iconName: "pfa"),
-                                  MenuItem(title: "Grade Bonding Programs", iconName: "bonding")]
+                                  MenuItem(title: "Parent Faculty Association", iconName: "pfa")]
         
         let firstYearASPGroup = MenuGroup(groupName: "Your First Year at ASP", menuItems: firstYearASPGroupItems, hidden: false)
         menuGroup?.append(firstYearASPGroup)
@@ -155,7 +154,7 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         //Communicate
         var communicateASPGroupItems: Array<MenuItem>
-        communicateASPGroupItems = [MenuItem(title: "Share", iconName: "share")]
+        communicateASPGroupItems = [MenuItem(title: "Contact Information", iconName: "contactinfo"), MenuItem(title: "Share", iconName: "share")]
         let communicateASPGroup = MenuGroup(groupName: "Communicate", menuItems: communicateASPGroupItems, hidden: false)
         menuGroup?.append(communicateASPGroup)
     }
@@ -236,7 +235,7 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
             }else {
                 self.navigationController?.pushViewController(pfaViewController, animated: true)
             }
-        }else if (menuItem?.title == "Grade Bonding Programs") {
+        }else if (menuItem?.title == "Contact Information") {
             if ((self.navigationController?.viewControllers .contains(gradebondingViewController))!) {
                 self.navigationController?.popToViewController(gradebondingViewController, animated: true)
             }else {
@@ -301,8 +300,8 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
     
         func transitionToNew(_ menuType: MenuType){
             var title = ""
-           if((String(describing: menuType)) == ("gradebonding")){
-                title = "Grade Bonding Programs"
+           if((String(describing: menuType)) == ("contact")){
+                title = "Contact Information"
             }else if((String(describing: menuType)) == ("onlineresources")){
                 title = "ASP Online Resources"
             }else if((String(describing: menuType)) == ("athletics")){

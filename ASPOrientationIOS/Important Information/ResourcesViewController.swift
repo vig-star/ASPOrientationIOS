@@ -39,11 +39,14 @@ class ResourcesViewController: ASPViewController {
         let line3 = "Haiku/PowerSchool Learning\n"
         let line4 = "Haiku/PowerSchool Learning is the school’s online learning portal. Middle and Upper School teachers use Haiku to extend the classroom environment. For the ASP student, Haiku provides access to a variety of resources and information related to classes, clubs and other activities. Click here to access the Haiku Portal.\n\n\n"
         
-        let line5 = "ASP Directory \n"
-        let line6 = "Click here for the School Directory, which contains the contact information of all administration and staff, PFA members, and ASP families.\n\n\n"
+        let line5 = "Seesaw\n"
+        let line6 = "Seesaw is a student-driven digital portfolio used in the Lower School to document and showcase student learning, and for teachers to communicate with parents. Click here to access the Seesaw Portal.\n\n\n"
         
-        let line7 = "ASP Libraries \n"
-        let line8 = "ASP is home to two libraries: La Bibliothèque (Early Childhood-Grade 7) and Sawiris Family Library (Grades 8-12), the latter of which provides access to summer reading, online databases, learning resources, and research information."
+        let line7 = "ASP Directory \n"
+        let line8 = "Click here for the School Directory, which contains the contact information of all administration and staff, PFA members, and ASP families.\n\n\n"
+        
+        let line9 = "ASP Libraries \n"
+        let line10 = "ASP is home to two libraries: La Bibliothèque (Early Childhood-Grade 7) and Sawiris Family Library (Grades 8-12), the latter of which provides access to summer reading, online databases, learning resources, and research information."
         
         
         //Here we can modify the attributes continue ... i will watch sounds good
@@ -52,22 +55,25 @@ class ResourcesViewController: ASPViewController {
         
         
         
-        let introAttributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 14), NSAttributedString.Key.foregroundColor: UIColor.white, NSAttributedString.Key.paragraphStyle: titleParagraphStyle]
-        let regularAttributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 13), NSAttributedString.Key.foregroundColor: UIColor.white]
-        let largeAttributes = [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 15), NSAttributedString.Key.foregroundColor: UIColor.yellow]
+        let introAttributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 14), NSAttributedString.Key.foregroundColor: UIColor(hex: "#003d71"), NSAttributedString.Key.paragraphStyle: titleParagraphStyle]
+        let regularAttributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 13), NSAttributedString.Key.foregroundColor: UIColor(hex: "#003d71")]
+        let largeAttributes = [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 15), NSAttributedString.Key.foregroundColor: UIColor(hex: "#003d71")]
         
-        let line0String = NSMutableAttributedString(string: line0, attributes: introAttributes)
-        let line1String = NSAttributedString(string: line1, attributes: largeAttributes)
-        let line2String = NSAttributedString(string: line2, attributes: regularAttributes)
+        let line0String = NSMutableAttributedString(string: line0, attributes: introAttributes as [NSAttributedString.Key : Any])
+        let line1String = NSAttributedString(string: line1, attributes: largeAttributes as [NSAttributedString.Key : Any])
+        let line2String = NSAttributedString(string: line2, attributes: regularAttributes as [NSAttributedString.Key : Any])
         
-        let line3String = NSAttributedString(string: line3, attributes: largeAttributes)
-        let line4String = NSAttributedString(string: line4, attributes: regularAttributes)
+        let line3String = NSAttributedString(string: line3, attributes: largeAttributes as [NSAttributedString.Key : Any])
+        let line4String = NSAttributedString(string: line4, attributes: regularAttributes as [NSAttributedString.Key : Any])
         
-        let line5String = NSAttributedString(string: line5, attributes: largeAttributes)
-        let line6String = NSAttributedString(string: line6, attributes: regularAttributes)
+        let line5String = NSAttributedString(string: line5, attributes: largeAttributes as [NSAttributedString.Key : Any])
+        let line6String = NSAttributedString(string: line6, attributes: regularAttributes as [NSAttributedString.Key : Any])
         
-        let line7String = NSAttributedString(string: line7, attributes: largeAttributes)
-        let line8String = NSAttributedString(string: line8, attributes: regularAttributes)
+        let line7String = NSAttributedString(string: line7, attributes: largeAttributes as [NSAttributedString.Key : Any])
+        let line8String = NSAttributedString(string: line8, attributes: regularAttributes as [NSAttributedString.Key : Any])
+        
+        let line9String = NSAttributedString(string: line9, attributes: largeAttributes as [NSAttributedString.Key : Any])
+        let line10String = NSAttributedString(string: line10, attributes: regularAttributes as [NSAttributedString.Key : Any])
         
         line0String.append(line1String)
         line0String.append(line2String)
@@ -77,6 +83,9 @@ class ResourcesViewController: ASPViewController {
         line0String.append(line6String)
         line0String.append(line7String)
         line0String.append(line8String)
+        line0String.append(line9String)
+        line0String.append(line10String)
+
         
         mainTextView.attributedText = line0String
         let linkedText = NSMutableAttributedString(attributedString: mainTextView.attributedText)
@@ -86,8 +95,9 @@ class ResourcesViewController: ASPViewController {
         let link4 = linkedText.setAsLink(textToFind: "Haiku Portal", linkURL: "https://asparis.learning.powerschool.com/do/account/login")
         let link5 = linkedText.setAsLink(textToFind: "School Directory", linkURL: "https://resources.finalsite.net/images/v1543583491/asp/thl1v5gyhagwmtbcf8oq/WholeDirectory2018-2019.pdf")
         let link6 = linkedText.setAsLink(textToFind: "Sawiris Family Library", linkURL: "http://libraries.asparis.fr/thehub")
-        
-        if link1 && link2 && link3 && link4 && link5 && link6 {
+        let link7 = linkedText.setAsLink(textToFind: "Seesaw Portal", linkURL: "https://web.seesaw.me/")
+
+        if link1 && link2 && link3 && link4 && link5 && link6 && link7{
             mainTextView.attributedText = NSAttributedString(attributedString: linkedText)
         }
         UITextView.appearance().linkTextAttributes = [ .foregroundColor: UIColor.red, .underlineStyle: NSUnderlineStyle.single.rawValue]
