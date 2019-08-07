@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wIZ-7H-Fja">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -36,7 +36,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2070" y="-1181"/>
+            <point key="canvasLocation" x="-2071.1999999999998" y="-1181.5592203898052"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="xZE-mM-sPL">
@@ -515,7 +515,7 @@
         <!--Navigation Controller-->
         <scene sceneID="qB6-ou-Egl">
             <objects>
-                <navigationController id="wIZ-7H-Fja" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="NavigationController" id="wIZ-7H-Fja" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Igi-Co-1Mb">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -962,7 +962,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m73-FB-nwV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="681" y="-255"/>
+            <point key="canvasLocation" x="1033" y="-255"/>
         </scene>
         <!--Calendar View Controller-->
         <scene sceneID="qY9-6A-Szr">
@@ -1051,8 +1051,93 @@
             </objects>
             <point key="canvasLocation" x="1836" y="-255"/>
         </scene>
+        <!--Login View Controller-->
+        <scene sceneID="WBs-hM-Qdl">
+            <objects>
+                <viewController restorationIdentifier="LoginViewController" storyboardIdentifier="LoginViewController" id="Mu4-mF-CUR" customClass="LoginViewController" customModule="ASPOrientationIOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b3U-Ww-Ac8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ScP-rU-3Mv" userLabel="UsernameTextField">
+                                <rect key="frame" x="20" y="313.5" width="335" height="40"/>
+                                <color key="backgroundColor" white="0.76886368614353551" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.0" green="0.23921568630000001" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="w9d-lb-Pru"/>
+                                </constraints>
+                                <color key="textColor" red="0.0" green="0.23921568630000001" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgc-vB-3vq">
+                                <rect key="frame" x="20" y="453.5" width="335" height="60"/>
+                                <color key="backgroundColor" red="0.74509803919999995" green="0.1176470588" blue="0.1764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="L3X-OX-hYt"/>
+                                    <constraint firstAttribute="height" constant="60" id="NS3-A8-aFW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginButton:" destination="Mu4-mF-CUR" eventType="touchUpInside" id="ozw-ud-zjA"/>
+                                    <action selector="onParentPressed:" destination="HOG-6S-Riq" eventType="touchUpInside" id="kh0-9r-HZE"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kgh-kD-29m" userLabel="PasswordTextField">
+                                <rect key="frame" x="20" y="363.5" width="335" height="40"/>
+                                <color key="backgroundColor" white="0.76910448237641216" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.0" green="0.23921568630000001" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="bHf-NZ-ldA"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="continue" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="asp_logo1-1" translatesAutoresizingMaskIntoConstraints="NO" id="ljS-yO-Ibn">
+                                <rect key="frame" x="67.5" y="119.5" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="9qM-9I-mlv"/>
+                                    <constraint firstAttribute="width" constant="240" id="Txb-I1-0Zz"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hgc-vB-3vq" firstAttribute="leading" secondItem="b3U-Ww-Ac8" secondAttribute="leading" constant="20" id="3S5-gb-v6d"/>
+                            <constraint firstItem="yK4-wP-QqB" firstAttribute="trailing" secondItem="ScP-rU-3Mv" secondAttribute="trailing" constant="20" id="DWl-co-G23"/>
+                            <constraint firstItem="ScP-rU-3Mv" firstAttribute="centerY" secondItem="b3U-Ww-Ac8" secondAttribute="centerY" id="J67-Jc-jfC"/>
+                            <constraint firstItem="hgc-vB-3vq" firstAttribute="centerY" secondItem="b3U-Ww-Ac8" secondAttribute="centerY" constant="150" id="KaU-AP-lBJ"/>
+                            <constraint firstItem="kgh-kD-29m" firstAttribute="centerY" secondItem="b3U-Ww-Ac8" secondAttribute="centerY" constant="50" id="R2H-HC-nfu"/>
+                            <constraint firstAttribute="trailing" secondItem="hgc-vB-3vq" secondAttribute="trailing" constant="20" id="SPP-aE-p0p"/>
+                            <constraint firstItem="ScP-rU-3Mv" firstAttribute="leading" secondItem="yK4-wP-QqB" secondAttribute="leading" constant="20" id="cxd-pQ-u2j"/>
+                            <constraint firstItem="yK4-wP-QqB" firstAttribute="trailing" secondItem="kgh-kD-29m" secondAttribute="trailing" constant="20" id="gQO-vC-s3q"/>
+                            <constraint firstItem="ljS-yO-Ibn" firstAttribute="centerX" secondItem="b3U-Ww-Ac8" secondAttribute="centerX" id="wkn-4y-MFl"/>
+                            <constraint firstItem="ljS-yO-Ibn" firstAttribute="centerY" secondItem="b3U-Ww-Ac8" secondAttribute="centerY" constant="-150" id="xKJ-DZ-rIZ"/>
+                            <constraint firstItem="kgh-kD-29m" firstAttribute="leading" secondItem="yK4-wP-QqB" secondAttribute="leading" constant="20" id="yzO-O3-CGi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yK4-wP-QqB"/>
+                    </view>
+                    <connections>
+                        <outlet property="loginButton" destination="hgc-vB-3vq" id="pyY-ae-ayc"/>
+                        <outlet property="passWord" destination="kgh-kD-29m" id="q1f-bK-3l6"/>
+                        <outlet property="userName" destination="ScP-rU-3Mv" id="5i6-nf-QIj"/>
+                        <segue destination="wIZ-7H-Fja" kind="presentation" identifier="HomeSegue" id="izl-Tg-QzC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YJa-Va-aZS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-818" y="-1951"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="asp_logo1-1" width="1016" height="880"/>
         <image name="athletics1" width="512" height="341"/>
         <image name="athletics2" width="512" height="512"/>
         <image name="buses" width="1608" height="528"/>

@@ -11,8 +11,10 @@ target 'ASPOrientationIOS' do
   use_frameworks!
 
   # Pods for ASPOrientationIOS
-  pod 'SideMenu', '~> 6.0.0'
+  pod 'SideMenu', '~> 6.0.7'
   pod 'ImageScrollView'
+  pod 'IQKeyboardManagerSwift'
+
 
 
   target 'ASPOrientationIOSTests' do

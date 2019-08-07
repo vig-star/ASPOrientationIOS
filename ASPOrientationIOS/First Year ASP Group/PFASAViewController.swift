@@ -79,10 +79,6 @@ class PFASAViewController: UIViewController {
         pTextView.isScrollEnabled = true
     }
     
-    @IBAction func onBackPressed(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "BackASPSegue", sender: self)
-    }
-    
     /*
     // MARK: - Navigation
 

@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-ASPOrientationIOS/Pods-ASPOrientationIOS-frameworks.sh
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/ImageScrollView/ImageScrollView.framework
+${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework

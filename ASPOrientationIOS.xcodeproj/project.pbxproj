@@ -32,6 +32,7 @@
 		2F614A0322DD0BF600E1BD3F /* MenuItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F614A0222DD0BF500E1BD3F /* MenuItemTableViewCell.swift */; };
 		2F85B34422DE1C48004EB8E0 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F85B34322DE1C48004EB8E0 /* MenuItem.swift */; };
 		2F85B34622DE1CC4004EB8E0 /* MenuGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F85B34522DE1CC4004EB8E0 /* MenuGroup.swift */; };
+		2FA7F77D22FB3DDF00272A0D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA7F77C22FB3DDF00272A0D /* LoginViewController.swift */; };
 		2FD02A3822DFA08F0037E428 /* ASPWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD02A3722DFA08F0037E428 /* ASPWebViewController.swift */; };
 		624F8EB71F340021749E9E0F /* Pods_ASPOrientationIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB5CADF3AC13FCB7811BD87 /* Pods_ASPOrientationIOSTests.framework */; };
 		84B9E85F22DF3AAC009406DD /* ASPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B9E85E22DF3AAC009406DD /* ASPViewController.swift */; };
@@ -90,6 +91,7 @@
 		2F614A0222DD0BF500E1BD3F /* MenuItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemTableViewCell.swift; sourceTree = "<group>"; };
 		2F85B34322DE1C48004EB8E0 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		2F85B34522DE1CC4004EB8E0 /* MenuGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuGroup.swift; sourceTree = "<group>"; };
+		2FA7F77C22FB3DDF00272A0D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2FD02A3722DFA08F0037E428 /* ASPWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASPWebViewController.swift; sourceTree = "<group>"; };
 		38D897306B8F68B45C0D4D6E /* Pods-ASPOrientationIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASPOrientationIOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASPOrientationIOSUITests/Pods-ASPOrientationIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3E30C48D002903DE3E69B4C0 /* Pods_ASPOrientationIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASPOrientationIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -212,6 +214,7 @@
 		84B9E85D22DF34A4009406DD /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				2FA7F77C22FB3DDF00272A0D /* LoginViewController.swift */,
 				2F4F757D22D0B51700EFFE37 /* AppDelegate.swift */,
 				84B9E85E22DF3AAC009406DD /* ASPViewController.swift */,
 				2FD02A3722DFA08F0037E428 /* ASPWebViewController.swift */,
@@ -461,22 +464,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ASPOrientationIOS/Pods-ASPOrientationIOS-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ImageScrollView/ImageScrollView.framework",
-				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-ASPOrientationIOS/Pods-ASPOrientationIOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageScrollView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-ASPOrientationIOS/Pods-ASPOrientationIOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASPOrientationIOS/Pods-ASPOrientationIOS-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ASPOrientationIOS/Pods-ASPOrientationIOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -496,6 +492,7 @@
 				2F4F75B822D220ED00EFFE37 /* GradeBondingViewController.swift in Sources */,
 				2F4F75B422D2205B00EFFE37 /* WelcomeViewController.swift in Sources */,
 				2F4F75BA22D2212900EFFE37 /* ResourcesViewController.swift in Sources */,
+				2FA7F77D22FB3DDF00272A0D /* LoginViewController.swift in Sources */,
 				2FD02A3822DFA08F0037E428 /* ASPWebViewController.swift in Sources */,
 				2F4F75C222D2223800EFFE37 /* BusViewController.swift in Sources */,
 				2F4F75B222D20C4E00EFFE37 /* MapViewController.swift in Sources */,
