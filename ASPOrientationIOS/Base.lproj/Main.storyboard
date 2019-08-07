@@ -819,7 +819,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="LdH-ha-soh"/>
                                 </constraints>
-                                <string key="text">ASP offersan extensive, private bus system to transport students in the western suburbs and in Paris. Our buses are a reliable and convenient option for getting to and from school.</string>
+                                <string key="text">ASP offers an extensive, private bus system to transport students in the western suburbs and in Paris. Our buses are a reliable and convenient option for getting to and from school.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.0" green="0.23921568630000001" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
