@@ -26,18 +26,18 @@ class PFASAViewController: UIViewController {
         let line5 = "Sports Boosters \n"
         let line6 = "Sports Boosters bring a lot of spirit to ASP as they support the school’s Athletics program through their presence and enthusiasm, by running the food concessions at home games, and through the sales of spirit wear.\n\n\n"
         
-        let line7 = "Senior Class Parents \n\n"
+        let line7 = "Senior Class Parents \n"
         let line8 = "Senior year is a memorable time for the soon-to-be graduates and their parents! The Senior Parents Committee helps plan special activities every year to support the efforts of our hard-working senior students and to celebrate this memorable year. They also coordinate graduation announcements, senior photos, monthly treats, senior t-shirts, an award luncheon, and more.\n\n\n"
         
         let line9 = "School Portraits \n"
-        let line12 = "Lower School: September 25, 2019\nMiddle School: October 8 and 9, 2019\nGrades 9-11: October 8 and 9, 2019 \nGrade 12: October 2, 2019\nRetakes and New Students: January 28, 2020\n\n"
+        let line12 = "September 25 | Lower School\nOctober 8 and 9 | Middle School\nOctober 8 and 9 | Grades 9-11\nOctober 2, 2019 | Grade 12\nJanuary 28 (2020) | Retakes and New Students\n\n"
         let line10 = "Each fall, parent volunteers coordinate with a professional photographer to take school portraits of all students. Parents will have the opportunity to purchase their students' photo packets.\n\n\n"
         
         
         //Here we can modify the attributes continue ... i will watch sounds good
-         let smallAttributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 11), NSAttributedString.Key.foregroundColor: UIColor(hex: "#003d71")]
-        let regularAttributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 13), NSAttributedString.Key.foregroundColor: UIColor(hex: "#003d71")]
-        let largeAttributes = [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 15), NSAttributedString.Key.foregroundColor: UIColor(hex: "#003d71")]
+         let smallAttributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 13), NSAttributedString.Key.foregroundColor: UIColor(hex: "#003d71")]
+        let regularAttributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 15), NSAttributedString.Key.foregroundColor: UIColor(hex: "#003d71")]
+        let largeAttributes = [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 17), NSAttributedString.Key.foregroundColor: UIColor(hex: "#003d71")]
         
         
         let line1String = NSMutableAttributedString(string: line1, attributes: largeAttributes as [NSAttributedString.Key : Any])

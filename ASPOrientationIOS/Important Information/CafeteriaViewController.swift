@@ -22,6 +22,11 @@ class CafeteriaViewController: ASPViewController {
         // Do any additional setup after loading the view.
     }
     
+    
+    @IBAction func onButtonPressedInstagram(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.instagram.com/cafeteria_asp/")! as URL, options: [:], completionHandler: nil)
+    }
+    
     @IBAction func onButtonPressedInfo(_ sender: Any) {
         webViewController.urlString = "https://www.asparis.org/student-life/cafeteria"
         self.navigationController?.pushViewController(webViewController, animated: true)

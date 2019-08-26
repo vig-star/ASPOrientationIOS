@@ -726,12 +726,25 @@
                                 <color key="textColor" red="0.0" green="0.23921568630000001" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nBb-F9-2lf">
+                                <rect key="frame" x="171.5" y="102.5" width="32" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="UaI-b4-mEk"/>
+                                    <constraint firstAttribute="height" constant="32" id="dm0-PD-aRb"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="insta"/>
+                                <connections>
+                                    <action selector="onButtonPressedInstagram:" destination="vFc-m5-j3h" eventType="touchUpInside" id="ffu-xO-qTB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="at4-QY-6cl" firstAttribute="bottom" secondItem="Sn9-2V-P2t" secondAttribute="bottom" constant="40" id="0EF-eY-Jjs"/>
                             <constraint firstItem="Sn9-2V-P2t" firstAttribute="top" secondItem="JIB-C5-0Kl" secondAttribute="bottom" constant="8" id="1Me-0q-JRn"/>
                             <constraint firstAttribute="trailing" secondItem="qo5-Uh-Gct" secondAttribute="trailing" constant="20" id="505-Ey-jSL"/>
+                            <constraint firstItem="nBb-F9-2lf" firstAttribute="centerY" secondItem="pmn-4B-xJr" secondAttribute="centerY" constant="-215" id="7Pv-1x-hMp"/>
+                            <constraint firstItem="nBb-F9-2lf" firstAttribute="centerX" secondItem="pmn-4B-xJr" secondAttribute="centerX" id="8ID-FC-GMS"/>
                             <constraint firstItem="JIB-C5-0Kl" firstAttribute="leading" secondItem="pmn-4B-xJr" secondAttribute="leading" constant="20" id="Pik-Ai-t3h"/>
                             <constraint firstAttribute="trailing" secondItem="JIB-C5-0Kl" secondAttribute="trailing" constant="20" id="SYN-UI-K5N"/>
                             <constraint firstAttribute="trailing" secondItem="ueY-po-9JL" secondAttribute="trailing" constant="10" id="TgT-EW-iqA"/>
@@ -750,7 +763,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ubu-xA-Lh9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1503" y="-255"/>
+            <point key="canvasLocation" x="-1503.2" y="-255.02248875562222"/>
         </scene>
         <!--Bus View Controller-->
         <scene sceneID="eKU-xC-M4L">
