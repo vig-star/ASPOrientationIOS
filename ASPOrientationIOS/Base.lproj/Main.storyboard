@@ -371,7 +371,7 @@
                                     <constraint firstAttribute="height" constant="59" id="wJg-s7-Zsv"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
-                                <state key="normal" title="Learn more about Lower School Athletics">
+                                <state key="normal" title="Learn more about Lower School Sports">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -385,7 +385,7 @@
                                     <constraint firstAttribute="height" constant="59" id="Rmn-hq-6kn"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
-                                <state key="normal" title="Learn more about Middle School Athletics">
+                                <state key="normal" title="Learn more about Middle School Sports">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -415,7 +415,7 @@
                                     <constraint firstAttribute="height" constant="59" id="1Wd-g2-wfU"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
-                                <state key="normal" title="Access the Athletics Portal">
+                                <state key="normal" title="Access the Activities Portal">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -591,7 +591,7 @@
                                     <constraint firstAttribute="height" constant="59" id="vKu-ei-is8"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
-                                <state key="normal" title="Access the Co-Curriculars Portal">
+                                <state key="normal" title="Access the Clubs Portal">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>

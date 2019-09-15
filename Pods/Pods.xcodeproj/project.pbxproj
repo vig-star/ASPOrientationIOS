@@ -37,7 +37,6 @@
 		6264E765868A01E426C4AD9CE977B002 /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7775DCAA4B44EFBB528DF9DC6C7AD58 /* SideMenu-dummy.m */; };
 		681342E5C18E296BF40684DDDC04D88B /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E939341CC97E3BA85C593BFDD7D2B80 /* IQUITextFieldView+Additions.swift */; };
 		6A02E3C707A1A104DCDD85953BC8BDEC /* IQKeyboardManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB4E3D7FDC6650D1B437D7EF4CAAE49 /* IQKeyboardManagerSwift-dummy.m */; };
-		6A4DA0F3D04D1D6959AEB6AC0FF30D3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */; };
 		76F2238CC12CA26FD69BFDEEF9139DAD /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEC8B60807D9F889BC8FCA6830CDEA5 /* ImageScrollView.swift */; };
 		77D9E1BA247DE33B9BBF954A3EA69BB2 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D325CD4EA035760635DD8237D36CF51 /* IQUIView+IQKeyboardToolbar.swift */; };
 		81393B44411A35759E116B55637E9AC2 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A9A145981C91563FC855F89AAF5478 /* IQKeyboardReturnKeyHandler.swift */; };
@@ -107,7 +106,6 @@
 		1DF3468E923BBCE2ECF3AC9E72A83370 /* Pods-ASPOrientationIOSUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASPOrientationIOSUITests-Info.plist"; sourceTree = "<group>"; };
 		1E0A7BC4DC428C1918B4D3106AD9CF1C /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
 		1FA1058F3E9AB6739B5EF1D0DFB0813F /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISideMenuNavigationController.swift; path = Pod/Classes/UISideMenuNavigationController.swift; sourceTree = "<group>"; };
-		20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		20CB11FF378ED3D4A4D8AEDE8978AB8F /* Initializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Initializable.swift; path = Pod/Classes/Initializable.swift; sourceTree = "<group>"; };
 		21E3E0D71D2344098C2CEDBC5A882E44 /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
 		25CC327BD79935C0B009B2D996DF792D /* Pods-ASPOrientationIOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASPOrientationIOSTests-dummy.m"; sourceTree = "<group>"; };
@@ -173,7 +171,6 @@
 		E40418D47BA4F17F5EE6165A3C335B9E /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQNSArray+Sort.swift"; path = "IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift"; sourceTree = "<group>"; };
 		E649E851862FB4ED125A59E3017B3C72 /* Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecations.swift; path = Pod/Classes/Deprecations.swift; sourceTree = "<group>"; };
 		E78C3757F580BAFCBB6D7CBA0C96E5F5 /* IQKeyboardManagerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardManagerSwift-Info.plist"; sourceTree = "<group>"; };
-		ED175AC1346D06C3F42476DAAC2A5EF5 /* Pods-ASPOrientationIOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASPOrientationIOS-frameworks.sh"; sourceTree = "<group>"; };
 		F54B99411A058721548723F320CB2961 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
 		F6E52B6B400EAC58C2AB3C99E7C90461 /* Pods_ASPOrientationIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASPOrientationIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E8A252F01E29B47268FC83209B4B4B /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
@@ -192,7 +189,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A4DA0F3D04D1D6959AEB6AC0FF30D3C /* CoreGraphics.framework in Frameworks */,
 				474BD176D99232B052652223E9CE4BDB /* Foundation.framework in Frameworks */,
 				CC069B0287D9AD5428F0C35460A8DD33 /* QuartzCore.framework in Frameworks */,
 				A2195480FD04EAD347BB54512D60F925 /* UIKit.framework in Frameworks */,
@@ -275,7 +271,6 @@
 		216D11D6253026459814863746CC99A1 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */,
 				762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */,
 				B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */,
 				56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */,
@@ -364,7 +359,6 @@
 				F94B8A352E67CB682A56918A4F686624 /* Pods-ASPOrientationIOS-acknowledgements.markdown */,
 				13990A7F22E623FEB38979E276F612C1 /* Pods-ASPOrientationIOS-acknowledgements.plist */,
 				2CA3EAFB426285603A35F07517E30590 /* Pods-ASPOrientationIOS-dummy.m */,
-				ED175AC1346D06C3F42476DAAC2A5EF5 /* Pods-ASPOrientationIOS-frameworks.sh */,
 				65CA4CD02DAB97B68867D93A73DD28D7 /* Pods-ASPOrientationIOS-Info.plist */,
 				3D0F643E5980FB5A4CCB8270F00446B2 /* Pods-ASPOrientationIOS-umbrella.h */,
 				FF9A1CBE0F16D0A43A1C83939761F332 /* Pods-ASPOrientationIOS.debug.xcconfig */,
@@ -902,7 +896,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1302,7 +1296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;

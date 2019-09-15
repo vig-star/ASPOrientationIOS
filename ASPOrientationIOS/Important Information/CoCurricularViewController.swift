@@ -41,7 +41,7 @@ class CoCurricularViewController: ASPViewController {
     }
     
     @IBAction func onButtonPressedPortal(_ sender: Any) {
-        webViewController.urlString = "https://www.asparis.org/parentportal/cocurriculars"
+        webViewController.urlString = "https://www.asparis.org/parent-portal/activities/clubs"
         self.navigationController?.pushViewController(webViewController, animated: true)
         
     }

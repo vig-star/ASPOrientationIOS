@@ -143,7 +143,7 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
         //Important Information
         var importantinfoASPGroupItems: Array<MenuItem>
         importantinfoASPGroupItems = [MenuItem(title: "ASP Online Resources", iconName: "online"),
-                                      MenuItem(title: "Athletics Program", iconName: "sports"),
+                                      MenuItem(title: "Athletics and Sports", iconName: "sports"),
                                       MenuItem(title: "Co-Curricular Activities", iconName: "cca"),
                                       MenuItem(title: "Cafeteria Information", iconName: "food"),
                                       MenuItem(title: "Bus Information", iconName: "bus"),

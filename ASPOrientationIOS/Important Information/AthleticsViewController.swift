@@ -18,7 +18,7 @@ class AthleticsViewController: ASPViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.setupTitle(title: "ASP Athletics")
+        self.setupTitle(title: "ASP Athletics and Sports")
         // Do any additional setup after loading the view.
     }
     
@@ -61,7 +61,7 @@ class AthleticsViewController: ASPViewController {
     }
     
     @IBAction func onButtonPressedPortal(_ sender: Any) {
-        webViewController.urlString = "https://www.asparis.org/parentportal/athletics"
+        webViewController.urlString = "https://www.asparis.org/parent-portal/activities"
         self.navigationController?.pushViewController(webViewController, animated: true)
        
     }
