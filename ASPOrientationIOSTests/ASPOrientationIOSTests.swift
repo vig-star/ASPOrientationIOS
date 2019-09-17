@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import ASPOrientationIOS
+
 
 class ASPOrientationIOSTests: XCTestCase {
 

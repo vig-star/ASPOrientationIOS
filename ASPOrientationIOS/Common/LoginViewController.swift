@@ -5,11 +5,11 @@
 //  Created by Vignesh on 8/7/19.
 //  Copyright © 2019 VigneshPranav. All rights reserved.
 //
-
 import UIKit
+import UserNotifications
 
 class LoginViewController: UIViewController {
-
+    
     
     
     @IBOutlet weak var loginButton: UIButton!
@@ -28,6 +28,25 @@ class LoginViewController: UIViewController {
         super.viewDidAppear(animated)
         
         //print token
+        let content = UNMutableNotificationContent()
+        
+        content.title = "Welcome"
+        
+        content.body = "The one-time login credentials have been sent to your email."
+        
+        content.sound = UNNotificationSound.default
+        
+        
+        
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 6, repeats: false)
+        
+        
+        
+        let request = UNNotificationRequest(identifier: "loginnotifications", content: content, trigger: trigger)
+        
+        
+        
+        UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
         
         
     }
@@ -60,15 +79,14 @@ class LoginViewController: UIViewController {
             toastLabel.removeFromSuperview()
         })
     }
-
+    
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destination.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }

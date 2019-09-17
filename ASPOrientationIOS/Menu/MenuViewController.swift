@@ -24,6 +24,7 @@ enum MenuType: Int{
     case calendar
     case communicate
     case share
+    case newsletter
     
     
 }
@@ -109,6 +110,12 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
         return viewController
     }()
     
+    lazy var newsletterViewController: NewsletterViewController = {
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        var viewController = storyboard.instantiateViewController(withIdentifier: "NewsletterViewController") as! NewsletterViewController
+        return viewController
+    }()
+    
     lazy var shareViewController: ShareViewController = {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         var viewController = storyboard.instantiateViewController(withIdentifier: "ShareViewController") as! ShareViewController
@@ -154,7 +161,9 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         //Communicate
         var communicateASPGroupItems: Array<MenuItem>
-        communicateASPGroupItems = [MenuItem(title: "Contact Information", iconName: "contactinfo"), MenuItem(title: "Share", iconName: "share")]
+        communicateASPGroupItems = [MenuItem(title: "Contact Information", iconName: "contactinfo"),
+                                    MenuItem(title: "Newsletters", iconName: "newsletter"),
+                                    MenuItem(title: "Share", iconName: "share")]
         let communicateASPGroup = MenuGroup(groupName: "Communicate", menuItems: communicateASPGroupItems, hidden: false)
         menuGroup?.append(communicateASPGroup)
     }
@@ -235,6 +244,14 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
             }else {
                 self.navigationController?.pushViewController(pfaViewController, animated: true)
             }
+        }else if (menuItem?.title == "Newsletters") {
+            if ((self.navigationController?.viewControllers .contains(webViewController))!) {
+                webViewController.urlString = "https://www.asparis.org/parentportal/newsletter"
+                self.navigationController?.popToViewController(webViewController, animated: true)
+            }else {
+                webViewController.urlString = "https://www.asparis.org/parentportal/newsletter"
+                self.navigationController?.pushViewController(webViewController, animated: true)
+            }
         }else if (menuItem?.title == "Contact Information") {
             if ((self.navigationController?.viewControllers .contains(gradebondingViewController))!) {
                 self.navigationController?.popToViewController(gradebondingViewController, animated: true)
@@ -247,7 +264,7 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
             }else {
                 self.navigationController?.pushViewController(resourcesViewController, animated: true)
             }
-        }else if (menuItem?.title == "Athletics Program") {
+        }else if (menuItem?.title == "Athletics and Sports") {
             if ((self.navigationController?.viewControllers .contains(athleticsViewController))!) {
                 self.navigationController?.popToViewController(athleticsViewController, animated: true)
             }else {
@@ -305,7 +322,7 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
             }else if((String(describing: menuType)) == ("onlineresources")){
                 title = "ASP Online Resources"
             }else if((String(describing: menuType)) == ("athletics")){
-                title = "Athletics Program"
+                title = "Athletics and Sports"
             }else if((String(describing: menuType)) == ("cocurricular")){
                 title = "Co-Curricular Activities"
             }else if((String(describing: menuType)) == ("cafeteria")){

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043945B45197F26D90799BE7 /* Pods_ASPOrientationIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81BB7512C923768FDA532D9 /* Pods_ASPOrientationIOS.framework */; };
 		2F409D3022EF2FAA0065C2DF /* aspicon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F409D2F22EF2FAA0065C2DF /* aspicon2.png */; };
 		2F4F757E22D0B51700EFFE37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4F757D22D0B51700EFFE37 /* AppDelegate.swift */; };
 		2F4F758022D0B51700EFFE37 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4F757F22D0B51700EFFE37 /* HomeViewController.swift */; };
@@ -34,7 +35,13 @@
 		2F85B34622DE1CC4004EB8E0 /* MenuGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F85B34522DE1CC4004EB8E0 /* MenuGroup.swift */; };
 		2FA7F77D22FB3DDF00272A0D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA7F77C22FB3DDF00272A0D /* LoginViewController.swift */; };
 		2FD02A3822DFA08F0037E428 /* ASPWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD02A3722DFA08F0037E428 /* ASPWebViewController.swift */; };
+		31658BA28715680A15495881 /* Pods_ASPOrientationIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA792C0F84FEEAF7EFE633C8 /* Pods_ASPOrientationIOSTests.framework */; };
+		811B9BF523317218003A288C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 811B9BF423317218003A288C /* GoogleService-Info.plist */; };
+		811B9BF623317218003A288C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 811B9BF423317218003A288C /* GoogleService-Info.plist */; };
+		811B9BF723317218003A288C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 811B9BF423317218003A288C /* GoogleService-Info.plist */; };
+		811B9BF923319962003A288C /* NewsletterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811B9BF823319962003A288C /* NewsletterViewController.swift */; };
 		84B9E85F22DF3AAC009406DD /* ASPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B9E85E22DF3AAC009406DD /* ASPViewController.swift */; };
+		C4E17503CB01DAF3C2DFAEC4 /* Pods_ASPOrientationIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55E1492B7FCD8FD011D8309 /* Pods_ASPOrientationIOSUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,9 +100,14 @@
 		38D897306B8F68B45C0D4D6E /* Pods-ASPOrientationIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASPOrientationIOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASPOrientationIOSUITests/Pods-ASPOrientationIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4AAC9E255FB6D23C4D6ADBA5 /* Pods-ASPOrientationIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASPOrientationIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASPOrientationIOS/Pods-ASPOrientationIOS.release.xcconfig"; sourceTree = "<group>"; };
 		4FE9F36D6BD71C1E1DADE7BC /* Pods-ASPOrientationIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASPOrientationIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASPOrientationIOS/Pods-ASPOrientationIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		811B9BF423317218003A288C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		811B9BF823319962003A288C /* NewsletterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsletterViewController.swift; sourceTree = "<group>"; };
 		81846671232E91D0004DEE20 /* ASPOrientationIOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ASPOrientationIOS.entitlements; sourceTree = "<group>"; };
 		84B9E85E22DF3AAC009406DD /* ASPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASPViewController.swift; sourceTree = "<group>"; };
 		8A1DCF111C3D751A580A91AF /* Pods-ASPOrientationIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASPOrientationIOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASPOrientationIOSUITests/Pods-ASPOrientationIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C55E1492B7FCD8FD011D8309 /* Pods_ASPOrientationIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASPOrientationIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81BB7512C923768FDA532D9 /* Pods_ASPOrientationIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASPOrientationIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA792C0F84FEEAF7EFE633C8 /* Pods_ASPOrientationIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASPOrientationIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043945B45197F26D90799BE7 /* Pods_ASPOrientationIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31658BA28715680A15495881 /* Pods_ASPOrientationIOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4E17503CB01DAF3C2DFAEC4 /* Pods_ASPOrientationIOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +141,9 @@
 		0ECF79C8AC0ED55D74B52AF7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D81BB7512C923768FDA532D9 /* Pods_ASPOrientationIOS.framework */,
+				EA792C0F84FEEAF7EFE633C8 /* Pods_ASPOrientationIOSTests.framework */,
+				C55E1492B7FCD8FD011D8309 /* Pods_ASPOrientationIOSUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -165,6 +183,7 @@
 				2F4F758122D0B51700EFFE37 /* Main.storyboard */,
 				2F4F758422D0B51900EFFE37 /* Assets.xcassets */,
 				2F4F758622D0B51900EFFE37 /* LaunchScreen.storyboard */,
+				811B9BF423317218003A288C /* GoogleService-Info.plist */,
 				2F4F758922D0B51900EFFE37 /* Info.plist */,
 				2F409D2F22EF2FAA0065C2DF /* aspicon2.png */,
 				2F4F75AD22D0F49500EFFE37 /* ASPOrientationIOS.swift */,
@@ -233,6 +252,7 @@
 				2F4F75BF22D2220A00EFFE37 /* CafeteriaViewController.swift */,
 				2F4F75C122D2223700EFFE37 /* BusViewController.swift */,
 				2F4F75C322D2226000EFFE37 /* CalendarViewController.swift */,
+				811B9BF823319962003A288C /* NewsletterViewController.swift */,
 			);
 			path = "Important Information";
 			sourceTree = "<group>";
@@ -323,6 +343,9 @@
 					2F4F757922D0B51600EFFE37 = {
 						CreatedOnToolsVersion = 10.2.1;
 						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
 							com.apple.Push = {
 								enabled = 1;
 							};
@@ -365,6 +388,7 @@
 			files = (
 				2F4F758822D0B51900EFFE37 /* LaunchScreen.storyboard in Resources */,
 				2F4F758522D0B51900EFFE37 /* Assets.xcassets in Resources */,
+				811B9BF523317218003A288C /* GoogleService-Info.plist in Resources */,
 				2F409D3022EF2FAA0065C2DF /* aspicon2.png in Resources */,
 				2F4F758322D0B51700EFFE37 /* Main.storyboard in Resources */,
 			);
@@ -374,6 +398,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				811B9BF623317218003A288C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +406,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				811B9BF723317218003A288C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +508,7 @@
 				2F4F75BE22D221C000EFFE37 /* CoCurricularViewController.swift in Sources */,
 				2F4F75C022D2220A00EFFE37 /* CafeteriaViewController.swift in Sources */,
 				2F4F75C822D2558500EFFE37 /* PFAViewController.swift in Sources */,
+				811B9BF923319962003A288C /* NewsletterViewController.swift in Sources */,
 				2F4F75AE22D0F49500EFFE37 /* ASPOrientationIOS.swift in Sources */,
 				2F4F75AC22D0B8AB00EFFE37 /* MenuViewController.swift in Sources */,
 				2F4F75B822D220ED00EFFE37 /* GradeBondingViewController.swift in Sources */,
@@ -675,8 +702,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ASPOrientationIOS/ASPOrientationIOS.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SULLLS46L7;
 				INFOPLIST_FILE = ASPOrientationIOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -686,7 +713,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.asparis.asptoday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "ASP Today Distribution";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -698,8 +725,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ASPOrientationIOS/ASPOrientationIOS.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SULLLS46L7;
 				INFOPLIST_FILE = ASPOrientationIOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -709,7 +736,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.asparis.asptoday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "ASP Today Distribution";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -721,6 +748,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SULLLS46L7;
 				INFOPLIST_FILE = ASPOrientationIOSTests/Info.plist;
@@ -729,8 +757,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = VigneshPranav.ASPOrientationIOSTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asparis.asptoday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASPOrientationIOS.app/ASPOrientationIOS";
@@ -743,6 +772,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SULLLS46L7;
 				INFOPLIST_FILE = ASPOrientationIOSTests/Info.plist;
@@ -751,8 +781,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = VigneshPranav.ASPOrientationIOSTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asparis.asptoday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASPOrientationIOS.app/ASPOrientationIOS";
@@ -764,16 +795,18 @@
 			baseConfigurationReference = 38D897306B8F68B45C0D4D6E /* Pods-ASPOrientationIOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T9JN665234;
+				DEVELOPMENT_TEAM = SULLLS46L7;
 				INFOPLIST_FILE = ASPOrientationIOSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = VigneshPranav.ASPOrientationIOSUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asparis.asptoday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = ASPOrientationIOS;
@@ -785,16 +818,18 @@
 			baseConfigurationReference = 8A1DCF111C3D751A580A91AF /* Pods-ASPOrientationIOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T9JN665234;
+				DEVELOPMENT_TEAM = SULLLS46L7;
 				INFOPLIST_FILE = ASPOrientationIOSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = VigneshPranav.ASPOrientationIOSUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asparis.asptoday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = ASPOrientationIOS;

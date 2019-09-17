@@ -17,6 +17,9 @@ class ASPViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupSideMenu()
+        
+      
+        
     }
     
     public func setupTitle(title: String) {

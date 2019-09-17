@@ -15,6 +15,15 @@ target 'ASPOrientationIOS' do
   pod 'ImageScrollView'
   pod 'IQKeyboardManagerSwift'
 
+  # Add the pods for the Firebase products you want to use in your app
+  # For example, to use Firebase Authentication and Cloud Firestore
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Messaging'
+
+
+  
+ 
+ 
 
 
   target 'ASPOrientationIOSTests' do
